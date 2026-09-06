@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc"><title id="title">Fields of work</title><desc id="desc">Two by two grid of work areas with roomy typography.</desc><rect width="1200" height="500" rx="22" fill="#0B131C"/><rect x="1" y="1" width="1198" height="498" rx="21" fill="none" stroke="#213247"/><g transform="translate(42 38)"><text x="0" y="0" dominant-baseline="hanging" fill="#8294A8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="2">FIELDS OF WORK</text><text x="0" y="54" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" font-weight="760">What I usually build around</text><g transform="translate(0 108)"><g><rect width="548" height="142" rx="18" fill="#101B27" stroke="#213247"/><text x="26" y="30" fill="#39E2CA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.3">01  EMBEDDED SYSTEMS</text><text x="26" y="68" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="730">Software close to the hardware</text><text x="26" y="102" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Sensors, device logic, serial buses, control loops and integration.</text><text x="26" y="126" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">The fun part is where the physical world stops being theoretical.</text></g><g transform="translate(568 0)"><rect width="548" height="142" rx="18" fill="#101B27" stroke="#213247"/><text x="26" y="30" fill="#39E2CA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.3">02  IOT + TELEMETRY</text><text x="26" y="68" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="730">Connected systems with visible state</text><text x="26" y="102" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Remote nodes, device state, realtime data and observability.</text><text x="26" y="126" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">I care more about useful signals than impressive dashboards.</text></g><g transform="translate(0 164)"><rect width="548" height="142" rx="18" fill="#101B27" stroke="#213247"/><text x="26" y="30" fill="#39E2CA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.3">03  BACKEND + LINUX</text><text x="26" y="68" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="730">Services that keep doing their job</text><text x="26" y="102" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">APIs, workers, automation, monitoring, deployment and recovery paths.</text><text x="26" y="126" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Operational behavior matters as much as the happy path.</text></g><g transform="translate(568 164)"><rect width="548" height="142" rx="18" fill="#101B27" stroke="#213247"/><text x="26" y="30" fill="#39E2CA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.3">04  INTERFACES + CONTROL</text><text x="26" y="68" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="730">Human readable complexity</text><text x="26" y="102" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Web apps, operator views, control surfaces and useful feedback.</text><text x="26" y="126" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">A good interface should make the system easier to reason about.</text></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="444" viewBox="0 0 900 444" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+  <title id="title">Fields I work in</title>
+  <desc id="desc">01 / FRONTEND Frontend engineering Web applications and control interfaces. Clear interaction, timing and feedback. 02 / EMBEDDED SYSTEMS Software near the hardware Sensors, serial buses and device logic. Where timing meets the physical world. 03 / IoT &amp; REALTIME Connected systems Device communication and realtime data. Making changing state understandable. 04 / BACKEND &amp; LINUX Services and infrastructure APIs, workers and automation. Deployment, monitoring and recovery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B131C"/><stop offset="1" stop-color="#0C1621"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#39E2CA"/><stop offset="1" stop-color="#718BFF"/></linearGradient>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .pulse { animation: pulse 5s ease-in-out infinite; }
+      .flow { animation: flow 12s linear infinite; }
+    }
+    @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+  </style>
+  <rect x="0.5" y="0.5" width="899" height="443" rx="16" fill="#0B131C" stroke="#2A3C50"/>
+  <rect x="32.0" y="32" width="408.0" height="180" rx="12" fill="#101B27" stroke="#2A3C50" />
+  <text x="56.0" y="68" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01 / FRONTEND</text>
+  <text x="56.0" y="108" font-size="23" fill="#F4F8FB" font-weight="600">Frontend engineering</text>
+  <text x="56.0" y="143" font-size="19" fill="#A7B4C4" font-weight="400">Web applications and control interfaces.</text>
+  <text x="56.0" y="171" font-size="19" fill="#A7B4C4" font-weight="400">Clear interaction, timing and feedback.</text>
+  <rect x="460.0" y="32" width="408.0" height="180" rx="12" fill="#101B27" stroke="#2A3C50" />
+  <text x="484.0" y="68" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02 / EMBEDDED SYSTEMS</text>
+  <text x="484.0" y="108" font-size="23" fill="#F4F8FB" font-weight="600">Software near the hardware</text>
+  <text x="484.0" y="143" font-size="19" fill="#A7B4C4" font-weight="400">Sensors, serial buses and device logic.</text>
+  <text x="484.0" y="171" font-size="19" fill="#A7B4C4" font-weight="400">Where timing meets the physical world.</text>
+  <rect x="32.0" y="232" width="408.0" height="180" rx="12" fill="#101B27" stroke="#2A3C50" />
+  <text x="56.0" y="268" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">03 / IoT &amp; REALTIME</text>
+  <text x="56.0" y="308" font-size="23" fill="#F4F8FB" font-weight="600">Connected systems</text>
+  <text x="56.0" y="343" font-size="19" fill="#A7B4C4" font-weight="400">Device communication and realtime data.</text>
+  <text x="56.0" y="371" font-size="19" fill="#A7B4C4" font-weight="400">Making changing state understandable.</text>
+  <rect x="460.0" y="232" width="408.0" height="180" rx="12" fill="#101B27" stroke="#2A3C50" />
+  <text x="484.0" y="268" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">04 / BACKEND &amp; LINUX</text>
+  <text x="484.0" y="308" font-size="23" fill="#F4F8FB" font-weight="600">Services and infrastructure</text>
+  <text x="484.0" y="343" font-size="19" fill="#A7B4C4" font-weight="400">APIs, workers and automation.</text>
+  <text x="484.0" y="371" font-size="19" fill="#A7B4C4" font-weight="400">Deployment, monitoring and recovery.</text>
+</svg>

@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc"><title id="title">Engineering toolbox</title><desc id="desc">Grouped technologies in a two by two grid.</desc><rect width="1200" height="470" rx="22" fill="#0B131C"/><rect x="1" y="1" width="1198" height="468" rx="21" fill="none" stroke="#213247"/><g transform="translate(42 38)"><text x="0" y="0" dominant-baseline="hanging" fill="#8294A8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="2">TOOLBOX</text><text x="0" y="54" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" font-weight="760">The stack changes with the problem</text><g transform="translate(0 108)"><g><rect width="548" height="132" rx="18" fill="#101B27" stroke="#213247"/><text x="26" y="30" fill="#39E2CA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.3">SYSTEMS + BACKEND</text><text x="26" y="66" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="720">Go  ·  C#  ·  .NET  ·  Node.js</text><text x="26" y="97" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">APIs, workers, services, transport, state and automation.</text></g><g transform="translate(568 0)"><rect width="548" height="132" rx="18" fill="#101B27" stroke="#213247"/><text x="26" y="30" fill="#39E2CA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.3">FRONTEND + INTERFACES</text><text x="26" y="66" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="720">TypeScript  ·  React  ·  Vite</text><text x="26" y="97" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Dashboards, operator views and practical web tooling.</text></g><g transform="translate(0 154)"><rect width="548" height="132" rx="18" fill="#101B27" stroke="#213247"/><text x="26" y="30" fill="#39E2CA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.3">EMBEDDED + IOT</text><text x="26" y="66" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="720">ESP32  ·  UART  ·  I²C  ·  OTA</text><text x="26" y="97" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Firmware, sensors, field behavior and device integration.</text></g><g transform="translate(568 154)"><rect width="548" height="132" rx="18" fill="#101B27" stroke="#213247"/><text x="26" y="28" fill="#39E2CA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.3">INFRA + OPS</text><text x="26" y="60" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="720">Linux  ·  Docker  ·  Prometheus</text><text x="26" y="88" fill="#F4F8FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="720">GitHub Actions  ·  Tailscale</text><text x="26" y="116" fill="#9EACBC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15.5">Observability, delivery, networking and recovery friendly operations.</text></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="408" viewBox="0 0 900 408" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+  <title id="title">Toolbox, grouped by function</title>
+  <desc id="desc">SYSTEMS &amp; BACKEND Go · C# · .NET · Node.js Services, APIs and background work. FRONTEND &amp; INTERFACES TypeScript · React · Vite Web interfaces and practical tooling. EMBEDDED &amp; IoT ESP32 · UART · I²C · OTA Firmware and device communication. INFRA &amp; OPS Linux · Docker · Prometheus GitHub Actions · Tailscale</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B131C"/><stop offset="1" stop-color="#0C1621"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#39E2CA"/><stop offset="1" stop-color="#718BFF"/></linearGradient>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .pulse { animation: pulse 5s ease-in-out infinite; }
+      .flow { animation: flow 12s linear infinite; }
+    }
+    @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+  </style>
+  <rect x="0.5" y="0.5" width="899" height="407" rx="16" fill="#0B131C" stroke="#2A3C50"/>
+  <rect x="32.0" y="32" width="408.0" height="162" rx="12" fill="#101B27" stroke="#2A3C50" />
+  <text x="56.0" y="68" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">SYSTEMS &amp; BACKEND</text>
+  <text x="56.0" y="108" font-size="23" fill="#F4F8FB" font-weight="600">Go · C# · .NET · Node.js</text>
+  <text x="56.0" y="143" font-size="19" fill="#A7B4C4" font-weight="400">Services, APIs and background work.</text>
+  <rect x="460.0" y="32" width="408.0" height="162" rx="12" fill="#101B27" stroke="#2A3C50" />
+  <text x="484.0" y="68" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND &amp; INTERFACES</text>
+  <text x="484.0" y="108" font-size="23" fill="#F4F8FB" font-weight="600">TypeScript · React · Vite</text>
+  <text x="484.0" y="143" font-size="19" fill="#A7B4C4" font-weight="400">Web interfaces and practical tooling.</text>
+  <rect x="32.0" y="214" width="408.0" height="162" rx="12" fill="#101B27" stroke="#2A3C50" />
+  <text x="56.0" y="250" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">EMBEDDED &amp; IoT</text>
+  <text x="56.0" y="290" font-size="23" fill="#F4F8FB" font-weight="600">ESP32 · UART · I²C · OTA</text>
+  <text x="56.0" y="325" font-size="19" fill="#A7B4C4" font-weight="400">Firmware and device communication.</text>
+  <rect x="460.0" y="214" width="408.0" height="162" rx="12" fill="#101B27" stroke="#2A3C50" />
+  <text x="484.0" y="250" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">INFRA &amp; OPS</text>
+  <text x="484.0" y="290" font-size="23" fill="#F4F8FB" font-weight="600">Linux · Docker · Prometheus</text>
+  <text x="484.0" y="325" font-size="19" fill="#A7B4C4" font-weight="400">GitHub Actions · Tailscale</text>
+</svg>
