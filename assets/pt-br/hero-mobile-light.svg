@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="606" viewBox="0 0 580 606" xml:lang="pt-BR" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">ButterFlly. Da interface ao hardware.</title>
-  <desc id="desc">FRONTEND / ENGENHARIA DE SOFTWARE BUTTERFLLY Da interface ao hardware. Interfaces, serviços e dispositivos conectados. SISTEMAS / EMBARCADOS / IoT</desc>
+  <desc id="desc">ENGENHARIA DE SOFTWARE / SISTEMAS BUTTERFLLY Da interface ao hardware. Serviços, interfaces e dispositivos conectados. LINUX / EMBARCADOS / IoT</desc>
   <defs>
     <linearGradient id="hero-bg" x1="0" y1="1" x2="1" y2="0">
       <stop stop-color="#F7F8F6"/><stop offset="1" stop-color="#FFFFFF"/>
@@ -52,12 +52,12 @@
   <circle cx="64" cy="290" r="3.5" fill="#F7F8F6" stroke="#89603F"/>
   <circle cx="272" cy="76" r="3.5" fill="#F7F8F6" stroke="#89603F"/>
   </g>
-  <text x="32" y="48" font-size="17" fill="#536367" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" letter-spacing="0.4">FRONTEND / ENGENHARIA DE SOFTWARE</text>
+  <text x="32" y="48" font-size="17" fill="#536367" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" letter-spacing="0.4">ENGENHARIA DE SOFTWARE / SISTEMAS</text>
   <text x="30" y="126" font-size="72" fill="#242D30" font-weight="700" letter-spacing="-2.4">BUTTERFLLY</text>
   <rect x="32" y="146" width="52" height="2" rx="1" fill="#89603F"/>
   <text x="32" y="205" font-size="39" fill="#242D30" font-weight="500" letter-spacing="-0.6">Da interface</text>
   <text x="32" y="248" font-size="39" fill="#242D30" font-weight="500" letter-spacing="-0.6">ao hardware.</text>
-  <text x="32" y="291" font-size="23" fill="#536367" font-weight="400">Interfaces, serviços e dispositivos conectados.</text>
+  <text x="32" y="291" font-size="23" fill="#536367" font-weight="400">Serviços, interfaces e dispositivos conectados.</text>
   <path d="M32 560H548" fill="none" stroke="#CDD8D6" />
-  <text x="32" y="584" font-size="17" fill="#536367" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">SISTEMAS / EMBARCADOS / IoT</text>
+  <text x="32" y="584" font-size="17" fill="#536367" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">LINUX / EMBARCADOS / IoT</text>
 </svg>

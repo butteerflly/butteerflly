@@ -26,16 +26,16 @@ COPY = {
     'pt-br': {
         'lang': 'pt-BR', 'file': 'README.md',
         'selector': '<strong>Português</strong> · <a href="./README.en.md">English</a>',
-        'eyebrow': 'FRONTEND / ENGENHARIA DE SOFTWARE',
+        'eyebrow': 'ENGENHARIA DE SOFTWARE / SISTEMAS',
         'headline': ('Da interface', 'ao hardware.'),
-        'intro': 'Interfaces, serviços e dispositivos conectados.',
-        'hero_scope': 'SISTEMAS / EMBARCADOS / IoT',
-        'profile_label': 'PERFIL TÉCNICO',
-        'profile': ('Minha especialidade é frontend.',),
+        'intro': 'Serviços, interfaces e dispositivos conectados.',
+        'hero_scope': 'LINUX / EMBARCADOS / IoT',
+        'profile_label': 'CRITÉRIO DE ENGENHARIA',
+        'profile': ('Estado, tempo de resposta e recuperação.',),
         'about_heading': 'Sobre mim',
-        'about': ('Trabalho com interfaces web, serviços de backend, Linux e sistemas embarcados. '
-                  'Gosto de investigar problemas que passam por essas áreas, principalmente quando '
-                  'envolvem comunicação com dispositivos ou o tempo de resposta do sistema.'),
+        'about': ('Trabalho com software e sistemas conectados. Isso inclui serviços Linux, automação, '
+                  'telemetria, sistemas embarcados e interfaces web. Gosto de entender como as partes '
+                  'se comunicam e o que acontece quando algo falha.'),
         'headings': {
             'hero': 'ButterFlly. Da interface ao hardware.',
             'console': 'Perfil técnico', 'fields': 'Áreas de atuação',
@@ -44,20 +44,20 @@ COPY = {
             'footer': 'ButterFlly. Discord: .butterflly',
         },
         'fields': (
-            ('01 / INTERFACES', 'Engenharia de frontend',
-             ('Interação, estado da aplicação', 'e layouts responsivos.')),
-            ('02 / SOFTWARE', 'Serviços e automação',
-             ('APIs, tarefas em segundo plano', 'e serviços Linux.')),
-            ('03 / HARDWARE', 'Sistemas embarcados',
+            ('01 / SOFTWARE', 'Sistemas e automação',
+             ('Serviços Linux, APIs', 'e tarefas em segundo plano.')),
+            ('02 / DISPOSITIVOS', 'Sistemas embarcados',
              ('Firmware, sensores', 'e comunicação serial.')),
-            ('04 / CONECTIVIDADE', 'IoT e tempo real',
+            ('03 / CONECTIVIDADE', 'IoT e tempo real',
              ('Integração de dispositivos,', 'telemetria e troca de mensagens.')),
+            ('04 / INTERFACES', 'Interfaces web',
+             ('Frontend, estado da aplicação', 'e interação com o sistema.')),
         ),
-        'toolbox_labels': ('FRONTEND E INTERFACES', 'SISTEMAS E BACKEND',
-                           'EMBARCADOS E IoT', 'INFRA E OBSERVABILIDADE'),
+        'toolbox_labels': ('SISTEMAS E BACKEND', 'EMBARCADOS E IoT',
+                           'FRONTEND E INTERFACES', 'INFRA E OBSERVABILIDADE'),
         'build': (
-            ('Deixar o estado claro',
-             ('Carregamento, dados desatualizados', 'e erros precisam ficar visíveis.')),
+            ('Tornar o estado observável',
+             ('Logs, métricas e sinais claros', 'para entender o comportamento.')),
             ('Testar quando as coisas falham',
              ('Verificar atrasos, novas tentativas', 'e perda de conexão.')),
             ('Facilitar a recuperação',
@@ -72,16 +72,16 @@ COPY = {
     'en': {
         'lang': 'en', 'file': 'README.en.md',
         'selector': '<a href="./README.md">Português</a> · <strong>English</strong>',
-        'eyebrow': 'FRONTEND / SOFTWARE ENGINEERING',
+        'eyebrow': 'SOFTWARE ENGINEERING / SYSTEMS',
         'headline': ('From the interface', 'to the hardware.'),
-        'intro': 'Interfaces, services and connected devices.',
-        'hero_scope': 'SYSTEMS / EMBEDDED / IoT',
-        'profile_label': 'ENGINEERING PROFILE',
-        'profile': ('I specialize in frontend engineering.',),
+        'intro': 'Services, interfaces and connected devices.',
+        'hero_scope': 'LINUX / EMBEDDED / IoT',
+        'profile_label': 'ENGINEERING CRITERIA',
+        'profile': ('State, response time and recovery.',),
         'about_heading': 'About',
-        'about': ('I work with web interfaces, backend services, Linux and embedded systems. '
-                  'I like investigating problems that cross those boundaries, especially when '
-                  'device communication or system response times are involved.'),
+        'about': ('I work on software and connected systems, including Linux services, automation, '
+                  'telemetry, embedded systems and web interfaces. I like understanding how the parts '
+                  'communicate and what happens when something fails.'),
         'headings': {
             'hero': 'ButterFlly. From the interface to the hardware.',
             'console': 'Engineering profile', 'fields': 'Fields I work in',
@@ -90,20 +90,20 @@ COPY = {
             'footer': 'ButterFlly. Discord: .butterflly',
         },
         'fields': (
-            ('01 / INTERFACES', 'Frontend engineering',
-             ('Interaction, application state', 'and responsive layouts.')),
-            ('02 / SOFTWARE', 'Services & automation',
-             ('APIs, background work', 'and Linux services.')),
-            ('03 / HARDWARE', 'Embedded systems',
+            ('01 / SOFTWARE', 'Systems & automation',
+             ('Linux services, APIs', 'and background work.')),
+            ('02 / DEVICES', 'Embedded systems',
              ('Firmware, sensors', 'and serial communication.')),
-            ('04 / CONNECTIVITY', 'IoT & realtime software',
+            ('03 / CONNECTIVITY', 'IoT & realtime software',
              ('Device integration, telemetry', 'and message exchange.')),
+            ('04 / INTERFACES', 'Web interfaces',
+             ('Frontend, application state', 'and interaction with the system.')),
         ),
-        'toolbox_labels': ('FRONTEND & INTERFACES', 'SYSTEMS & BACKEND',
-                           'EMBEDDED & IoT', 'INFRA & OBSERVABILITY'),
+        'toolbox_labels': ('SYSTEMS & BACKEND', 'EMBEDDED & IoT',
+                           'FRONTEND & INTERFACES', 'INFRA & OBSERVABILITY'),
         'build': (
-            ('Make state visible',
-             ('Show loading, stale data', 'and errors clearly.')),
+            ('Make state observable',
+             ('Use logs, metrics and clear signals', 'to understand system behavior.')),
             ('Test when things fail',
              ('Check timing, retries', 'and lost connections.')),
             ('Make recovery practical',
@@ -117,9 +117,9 @@ COPY = {
     },
 }
 TOOLS = (
-    ('TypeScript · React · Vite',),
     ('Go · C# · .NET · Node.js',),
     ('ESP32 · UART · I²C · OTA',),
+    ('TypeScript · React · Vite',),
     ('Linux · Docker · Prometheus', 'GitHub Actions · Tailscale'),
 )
 
