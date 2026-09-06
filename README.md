@@ -1,50 +1,87 @@
-### E aí, devs 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg">
+  <img alt="ButterFlly — Software, Systems, IoT & Automation" src="./assets/profile-header-dark.svg" width="100%">
+</picture>
 
-Estou explorando essa área que tanto gosto, sempre aprendendo e desempenhando meu máximo!
-
-## <img width="45" alt="about" src="https://raw.github.com/elizarov/elizarov/master/about.png"> Mais sobre mim
-
-<img align="right" width="350" height="135" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif"/>
-
-```js
-import Developer from 'ButterFlly';
-class SobreMim extends Developer {
-  area    = 'Front-end & Web Developer, Analista de Sistemas';
-  local = 'Somewhere in New Mexico';
-}
-```
-## **Linguagens**  
-
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/lua/lua.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png"></code>
-
-
-## **GitHub Estatísticas**
-<div>
- <center
-<a href="https://github.com/butteerflly">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=butteerflly&layout=compact&langs_count=7&theme=radical">
-</a>
-<a href="https://github.com/butteerflly">
-    <img height="170em" src="https://github-readme-stats.vercel.app/api?username=butteerflly&show_icons=true&theme=radical&count_private=true">
-</a>
+<div align="center">
+  <sub><strong>Building software that connects infrastructure, devices and the physical world.</strong></sub>
 </div>
+
 <br>
 
-### Onde me encontrar:
- 
-<div> 
-  <a href="https://discordapp.com/users/.butterflly" target="_blank"><img src="https://img.shields.io/badge/-Discord-%2332405F?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
- 
+## `01 / ABOUT`
+
+I build end-to-end systems across **web applications, backend services, Linux infrastructure and embedded/IoT devices**.
+
+My current focus is **distributed control, realtime telemetry, resilient services, automation and operator-facing interfaces** — the part where software stops being just a screen and starts interacting with actual machines, sensors and networks.
+
+`📍 Somewhere in New Mexico`
+
+---
+
+## `02 / CURRENTLY BUILDING`
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/home-iot-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/home-iot-light.svg">
+  <img alt="Home IoT — private control plane for home and workshop automation" src="./assets/home-iot-dark.svg" width="100%">
 </picture>
+
+### Home IoT / Leonida Home IoT Core
+
+A private control plane for personal home and workshop infrastructure. It brings together **remote nodes, device control, environmental sensing, presence detection, realtime telemetry, monitoring, OTA delivery and recovery paths** under one system.
+
+The interesting part is not any single device. It is making the whole thing remain **observable, recoverable and controllable when individual pieces fail**.
+
+<sub>Private repository · active development</sub>
+
+---
+
+## `03 / HOW I BUILD`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/system-map-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/system-map-light.svg">
+  <img alt="Systems engineering map" src="./assets/system-map-dark.svg" width="100%">
+</picture>
+
+I prefer systems with **explicit state, visible failures, controlled recovery and clear boundaries** between UI, control logic, infrastructure and hardware.
+
+---
+
+## `04 / ENGINEERING STACK`
+
+| Area | Technologies & concepts |
+| --- | --- |
+| **Systems & Backend** | `Go` · `C# / .NET` · `Node.js` · `REST` · `WebSocket` · `SSE` |
+| **Frontend** | `TypeScript` · `JavaScript` · `React` · `Vite` · `HTML` · `CSS` |
+| **Embedded / IoT** | `ESP32` · `UART` · `I²C` · `OTA` · sensor integration |
+| **Infrastructure / Ops** | `Linux` · `Docker` · `GitHub Actions` · `Prometheus` · `Tailscale` |
+| **Data / Tooling** | `SQL` · `MySQL` · `Python` |
+| **Also worked with** | `PHP` · `Lua` |
+
+---
+
+## `05 / ENGINEERING INTERESTS`
+
+`Distributed Systems` · `Embedded Systems` · `IoT` · `Observability` · `Infrastructure` · `Realtime Systems` · `Automation` · `Automotive Technology` · `Human–Machine Interfaces`
+
+---
+
+## `06 / GITHUB ACTIVITY`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/butteerflly/butteerflly/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/butteerflly/butteerflly/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution activity" src="https://raw.githubusercontent.com/butteerflly/butteerflly/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+---
+
+## `07 / CONTACT`
+
+**GitHub:** [@butteerflly](https://github.com/butteerflly)  
+**Discord:** `.butterflly`
+
+<sub>Systems, experiments and the engineering behind them.</sub>
