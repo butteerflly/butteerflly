@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="366" viewBox="0 0 580 366" xml:lang="en" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+  <title id="title">How I like to build</title>
+  <desc id="desc">01 Make state visible Show loading, stale data and errors clearly. 02 Test when things fail Check timing, retries and lost connections. 03 Make recovery practical Leave useful logs and a way to roll back changes.</desc>
+  <text x="32" y="46" font-size="16" fill="#89603F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01</text>
+  <text x="78" y="46" font-size="23" fill="#242D30" font-weight="600">Make state visible</text>
+  <text x="78" y="78" font-size="21" fill="#536367" font-weight="400">Show loading, stale data</text>
+  <text x="78" y="106" font-size="21" fill="#536367" font-weight="400">and errors clearly.</text>
+  <path d="M78 121H548" fill="none" stroke="#CDD8D6" />
+  <text x="32" y="164" font-size="16" fill="#89603F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02</text>
+  <text x="78" y="164" font-size="23" fill="#242D30" font-weight="600">Test when things fail</text>
+  <text x="78" y="196" font-size="21" fill="#536367" font-weight="400">Check timing, retries</text>
+  <text x="78" y="224" font-size="21" fill="#536367" font-weight="400">and lost connections.</text>
+  <path d="M78 239H548" fill="none" stroke="#CDD8D6" />
+  <text x="32" y="282" font-size="16" fill="#89603F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">03</text>
+  <text x="78" y="282" font-size="23" fill="#242D30" font-weight="600">Make recovery practical</text>
+  <text x="78" y="314" font-size="21" fill="#536367" font-weight="400">Leave useful logs and a way</text>
+  <text x="78" y="342" font-size="21" fill="#536367" font-weight="400">to roll back changes.</text>
+</svg>

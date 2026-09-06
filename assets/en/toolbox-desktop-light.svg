@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="224" viewBox="0 0 900 224" xml:lang="en" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+  <title id="title">Toolbox</title>
+  <desc id="desc">FRONTEND &amp; INTERFACES TypeScript · React · Vite SYSTEMS &amp; BACKEND Go · C# · .NET · Node.js EMBEDDED &amp; IoT ESP32 · UART · I²C · OTA INFRA &amp; OBSERVABILITY Linux · Docker · Prometheus GitHub Actions · Tailscale</desc>
+  <text x="32" y="28" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND &amp; INTERFACES</text>
+  <text x="32" y="64" font-size="23" fill="#242D30" font-weight="500">TypeScript · React · Vite</text>
+  <text x="492" y="28" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">SYSTEMS &amp; BACKEND</text>
+  <text x="492" y="64" font-size="23" fill="#242D30" font-weight="500">Go · C# · .NET · Node.js</text>
+  <text x="32" y="132" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">EMBEDDED &amp; IoT</text>
+  <text x="32" y="168" font-size="23" fill="#242D30" font-weight="500">ESP32 · UART · I²C · OTA</text>
+  <text x="492" y="132" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">INFRA &amp; OBSERVABILITY</text>
+  <text x="492" y="168" font-size="23" fill="#242D30" font-weight="500">Linux · Docker · Prometheus</text>
+  <text x="492" y="199" font-size="23" fill="#242D30" font-weight="500">GitHub Actions · Tailscale</text>
+  <path d="M450 12V216" fill="none" stroke="#CDD8D6" />
+</svg>
