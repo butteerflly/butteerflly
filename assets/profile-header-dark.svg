@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">ButterFlly — Software, Systems, IoT and Automation</title>
+<desc id="desc">Engineering profile banner with a control-plane systems diagram.</desc>
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#18202A" stroke-width="1"/></pattern>
+  <linearGradient id="accentLine" x1="0" x2="1"><stop offset="0" stop-color="#3EE6D0"/><stop offset="1" stop-color="#7C93FF"/></linearGradient>
+  <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1200" height="340" rx="22" fill="#0A0D12"/>
+<rect x="1" y="1" width="1198" height="338" rx="21" fill="none" stroke="#222C38"/>
+<rect width="1200" height="340" rx="22" fill="url(#grid)" opacity=".72"/>
+<circle cx="958" cy="166" r="112" fill="#153C3A" opacity=".42" filter="url(#softGlow)"/>
+
+<!-- left identity -->
+<text x="58" y="56" fill="#8D99A8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="2.4">BUTTERFLLY // SYSTEM PROFILE</text>
+<rect x="58" y="77" width="92" height="3" rx="2" fill="url(#accentLine)"/>
+<text x="56" y="145" fill="#F2F5F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="760" letter-spacing="-2.8">BUTTERFLLY</text>
+<text x="59" y="183" fill="#8D99A8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="1.8">SOFTWARE  ·  SYSTEMS  ·  IoT  ·  AUTOMATION</text>
+<text x="59" y="224" fill="#F2F5F8" opacity=".90" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Building software that connects infrastructure, devices and the physical world.</text>
+
+<g transform="translate(58 257)">
+  <rect width="170" height="34" rx="17" fill="#0F141B" stroke="#222C38"/>
+  <circle cx="19" cy="17" r="5" fill="#3EE6D0"/>
+  <text x="33" y="22" fill="#8D99A8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="1">CURRENTLY BUILDING</text>
+</g>
+<text x="244" y="279" fill="#F2F5F8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">HOME IOT / CONTROL SYSTEMS</text>
+
+<!-- right system diagram -->
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+  <path d="M826 91 L908 137 M1038 91 L956 137 M826 235 L908 190 M1038 235 L956 190" stroke="#2A3948" stroke-width="2" fill="none"/>
+  <path d="M933 119 V93 M933 208 V232" stroke="#2A3948" stroke-width="2"/>
+
+  <g transform="translate(866 132)">
+    <rect width="136" height="74" rx="14" fill="#0F141B" stroke="#3EE6D0" stroke-width="1.5"/>
+    <text x="68" y="28" text-anchor="middle" fill="#3EE6D0" font-size="11" letter-spacing="1.6">CONTROL</text>
+    <text x="68" y="48" text-anchor="middle" fill="#F2F5F8" font-size="15" font-weight="700">PLANE</text>
+    <circle cx="21" cy="59" r="3" fill="#3EE6D0"/>
+    <circle cx="31" cy="59" r="3" fill="#7C93FF"/>
+    <circle cx="41" cy="59" r="3" fill="#8D99A8" opacity=".6"/>
+  </g>
+
+  <g transform="translate(755 61)"><rect width="144" height="48" rx="12" fill="#121A22" stroke="#222C38"/><circle cx="18" cy="24" r="5" fill="#7C93FF"/><text x="32" y="29" fill="#F2F5F8" font-size="13">WEB / UI</text></g>
+  <g transform="translate(968 61)"><rect width="144" height="48" rx="12" fill="#121A22" stroke="#222C38"/><circle cx="18" cy="24" r="5" fill="#3EE6D0"/><text x="32" y="29" fill="#F2F5F8" font-size="13">LINUX NODE</text></g>
+  <g transform="translate(755 231)"><rect width="144" height="48" rx="12" fill="#121A22" stroke="#222C38"/><circle cx="18" cy="24" r="5" fill="#3EE6D0"/><text x="32" y="29" fill="#F2F5F8" font-size="13">ESP32 NODE</text></g>
+  <g transform="translate(968 231)"><rect width="144" height="48" rx="12" fill="#121A22" stroke="#222C38"/><circle cx="18" cy="24" r="5" fill="#7C93FF"/><text x="32" y="29" fill="#F2F5F8" font-size="13">PC AGENT</text></g>
+
+  <text x="933" y="47" text-anchor="middle" fill="#8D99A8" font-size="10" letter-spacing="1.3">REALTIME / OBSERVABLE / RESILIENT</text>
+  <text x="933" y="307" text-anchor="middle" fill="#8D99A8" font-size="10" letter-spacing="1.3">SOFTWARE / INFRASTRUCTURE / HARDWARE</text>
+</g>
+</svg>
