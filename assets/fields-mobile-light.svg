@@ -1,37 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="580" height="844" viewBox="0 0 580 844" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="764" viewBox="0 0 580 764" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">Fields I work in</title>
-  <desc id="desc">01 / FRONTEND Frontend engineering Web applications and control interfaces. Clear interaction, timing and feedback. 02 / EMBEDDED SYSTEMS Software near the hardware Sensors, serial buses and device logic. Where timing meets the physical world. 03 / IoT &amp; REALTIME Connected systems Device communication and realtime data. Making changing state understandable. 04 / BACKEND &amp; LINUX Services and infrastructure APIs, workers and automation. Deployment, monitoring and recovery.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7F9FC"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#007D6C"/><stop offset="1" stop-color="#536DDA"/></linearGradient>
-  </defs>
-  <style>
-    @media (prefers-reduced-motion: no-preference) {
-      .pulse { animation: pulse 5s ease-in-out infinite; }
-      .flow { animation: flow 12s linear infinite; }
-    }
-    @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
-    @keyframes flow { to { stroke-dashoffset: -20; } }
-  </style>
-  <rect x="0.5" y="0.5" width="579" height="843" rx="16" fill="#F7F9FC" stroke="#CCD6E0"/>
-  <rect x="32" y="32" width="516" height="180" rx="12" fill="#FFFFFF" stroke="#CCD6E0" />
-  <text x="56" y="68" font-size="16" fill="#007D6C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01 / FRONTEND</text>
-  <text x="56" y="108" font-size="23" fill="#151B23" font-weight="600">Frontend engineering</text>
-  <text x="56" y="143" font-size="19" fill="#526171" font-weight="400">Web applications and control interfaces.</text>
-  <text x="56" y="171" font-size="19" fill="#526171" font-weight="400">Clear interaction, timing and feedback.</text>
-  <rect x="32" y="232" width="516" height="180" rx="12" fill="#FFFFFF" stroke="#CCD6E0" />
-  <text x="56" y="268" font-size="16" fill="#007D6C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02 / EMBEDDED SYSTEMS</text>
-  <text x="56" y="308" font-size="23" fill="#151B23" font-weight="600">Software near the hardware</text>
-  <text x="56" y="343" font-size="19" fill="#526171" font-weight="400">Sensors, serial buses and device logic.</text>
-  <text x="56" y="371" font-size="19" fill="#526171" font-weight="400">Where timing meets the physical world.</text>
-  <rect x="32" y="432" width="516" height="180" rx="12" fill="#FFFFFF" stroke="#CCD6E0" />
-  <text x="56" y="468" font-size="16" fill="#007D6C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">03 / IoT &amp; REALTIME</text>
-  <text x="56" y="508" font-size="23" fill="#151B23" font-weight="600">Connected systems</text>
-  <text x="56" y="543" font-size="19" fill="#526171" font-weight="400">Device communication and realtime data.</text>
-  <text x="56" y="571" font-size="19" fill="#526171" font-weight="400">Making changing state understandable.</text>
-  <rect x="32" y="632" width="516" height="180" rx="12" fill="#FFFFFF" stroke="#CCD6E0" />
-  <text x="56" y="668" font-size="16" fill="#007D6C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">04 / BACKEND &amp; LINUX</text>
-  <text x="56" y="708" font-size="23" fill="#151B23" font-weight="600">Services and infrastructure</text>
-  <text x="56" y="743" font-size="19" fill="#526171" font-weight="400">APIs, workers and automation.</text>
-  <text x="56" y="771" font-size="19" fill="#526171" font-weight="400">Deployment, monitoring and recovery.</text>
+  <desc id="desc">01 / INTERFACES Frontend engineering Interaction, application state and responsive layouts. 02 / SOFTWARE Services &amp; automation APIs, background work and Linux services. 03 / HARDWARE Embedded systems Firmware, sensors and serial communication. 04 / CONNECTIVITY IoT &amp; realtime software Device integration, telemetry and changing state.</desc>
+  <rect x="0.5" y="0.5" width="579" height="763" rx="16" fill="#F7F8F6" stroke="#CDD8D6"/>
+  <rect x="32" y="32" width="516" height="160" rx="12" fill="#FFFFFF" stroke="#CDD8D6"/>
+  <text x="56" y="66" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01 / INTERFACES</text>
+  <text x="56" y="106" font-size="25" fill="#242D30" font-weight="600">Frontend engineering</text>
+  <text x="56" y="139" font-size="21" fill="#536367" font-weight="400">Interaction, application state</text>
+  <text x="56" y="166" font-size="21" fill="#536367" font-weight="400">and responsive layouts.</text>
+  <rect x="32" y="212" width="516" height="160" rx="12" fill="#FFFFFF" stroke="#CDD8D6"/>
+  <text x="56" y="246" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02 / SOFTWARE</text>
+  <text x="56" y="286" font-size="25" fill="#242D30" font-weight="600">Services &amp; automation</text>
+  <text x="56" y="319" font-size="21" fill="#536367" font-weight="400">APIs, background work</text>
+  <text x="56" y="346" font-size="21" fill="#536367" font-weight="400">and Linux services.</text>
+  <rect x="32" y="392" width="516" height="160" rx="12" fill="#FFFFFF" stroke="#CDD8D6"/>
+  <text x="56" y="426" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">03 / HARDWARE</text>
+  <text x="56" y="466" font-size="25" fill="#242D30" font-weight="600">Embedded systems</text>
+  <text x="56" y="499" font-size="21" fill="#536367" font-weight="400">Firmware, sensors</text>
+  <text x="56" y="526" font-size="21" fill="#536367" font-weight="400">and serial communication.</text>
+  <rect x="32" y="572" width="516" height="160" rx="12" fill="#FFFFFF" stroke="#CDD8D6"/>
+  <text x="56" y="606" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">04 / CONNECTIVITY</text>
+  <text x="56" y="646" font-size="25" fill="#242D30" font-weight="600">IoT &amp; realtime software</text>
+  <text x="56" y="679" font-size="21" fill="#536367" font-weight="400">Device integration, telemetry</text>
+  <text x="56" y="706" font-size="21" fill="#536367" font-weight="400">and changing state.</text>
 </svg>

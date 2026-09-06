@@ -4,7 +4,7 @@
   <source media="(max-width: 767px)" srcset="./assets/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-v5-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-v5-light.svg">
-  <img alt="ButterFlly. From the interface to the hardware. Linux, operations, embedded systems and IoT." src="./assets/hero-v5-dark.svg" width="100%">
+  <img alt="ButterFlly. Frontend and software engineering, from the interface to the hardware." src="./assets/hero-v5-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -14,15 +14,13 @@
   <source media="(max-width: 767px)" srcset="./assets/console-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/console-v5-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/console-v5-light.svg">
-  <img alt="Engineering profile: understand the boundary between hardware, services and people. Make timing, state and failure modes explicit." src="./assets/console-v5-dark.svg" width="100%">
+  <img alt="Frontend engineering, with a view of the whole system." src="./assets/console-v5-dark.svg" width="100%">
 </picture>
 </p>
 
 ## About
 
-I specialize in frontend engineering. My work also reaches backend services, Linux and embedded devices, especially where they need to work together.
-
-I enjoy tracing a problem across those boundaries, especially when it involves timing, communication or something that only fails outside a test environment.
+I work with web interfaces, backend services, Linux and embedded hardware. I like following a problem across those boundaries, especially when timing or device communication is involved.
 
 ## Fields I work in
 
@@ -33,7 +31,7 @@ I enjoy tracing a problem across those boundaries, especially when it involves t
   <source media="(max-width: 767px)" srcset="./assets/fields-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/fields-v5-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/fields-v5-light.svg">
-  <img alt="Frontend engineering: web applications, control interfaces and clear feedback. Embedded systems: sensors, serial buses and device logic. IoT and realtime: device communication and changing state. Backend and Linux: services, infrastructure and automation." src="./assets/fields-v5-dark.svg" width="100%">
+  <img alt="Frontend: interaction, application state and responsive layouts. Software: APIs, background work and Linux services. Embedded: firmware, sensors and serial communication. IoT and realtime: device integration, telemetry and changing state." src="./assets/fields-v5-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -45,7 +43,7 @@ I enjoy tracing a problem across those boundaries, especially when it involves t
   <source media="(max-width: 767px)" srcset="./assets/toolbox-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-v5-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/toolbox-v5-light.svg">
-  <img alt="Systems and backend: Go, C#, .NET, Node.js. Frontend and interfaces: TypeScript, React, Vite. Embedded and IoT: ESP32, UART, I²C, OTA. Infrastructure and operations: Linux, Docker, Prometheus, GitHub Actions, Tailscale." src="./assets/toolbox-v5-dark.svg" width="100%">
+  <img alt="Frontend and interfaces: TypeScript, React, Vite. Systems and backend: Go, C#, .NET, Node.js. Embedded and IoT: ESP32, UART, I²C, OTA. Infrastructure and operations: Linux, Docker, Prometheus, GitHub Actions, Tailscale." src="./assets/toolbox-v5-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -57,7 +55,7 @@ I enjoy tracing a problem across those boundaries, especially when it involves t
   <source media="(max-width: 767px)" srcset="./assets/build-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/build-v5-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/build-v5-light.svg">
-  <img alt="Define contracts, ownership and state transitions. Leave useful evidence with logs and measurements. Test timing, retries and lost connections. Plan rollback and exercise recovery." src="./assets/build-v5-dark.svg" width="100%">
+  <img alt="Make state visible: show loading, stale data and errors clearly. Test beyond the happy path: check timing, retries and lost connections. Keep changes recoverable: leave useful logs and a practical rollback path." src="./assets/build-v5-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -69,7 +67,7 @@ I enjoy tracing a problem across those boundaries, especially when it involves t
   <source media="(max-width: 767px)" srcset="./assets/interests-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/interests-v5-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/interests-v5-light.svg">
-  <img alt="Electronics: signals, circuits and measurement. Automotive technology: diagnostics and vehicle communication." src="./assets/interests-v5-dark.svg" width="100%">
+  <img alt="Electronics: signals, circuits and measurement. Automotive diagnostics: fault finding and vehicle communication." src="./assets/interests-v5-dark.svg" width="100%">
 </picture>
 </p>
 

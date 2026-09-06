@@ -1,38 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="580" height="536" viewBox="0 0 580 536" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="390" viewBox="0 0 580 390" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">ButterFlly. From the interface to the hardware.</title>
-  <desc id="desc">FRONTEND / SOFTWARE / SYSTEMS BUTTERFLLY From the interface to the hardware. I like knowing why a system behaves the way it does. LINUX / OPS EMBEDDED / IoT ENGINEERING FOCUS Signals State Feedback</desc>
+  <desc id="desc">FRONTEND / SOFTWARE ENGINEERING BUTTERFLLY From the interface to the hardware. Interfaces, services and connected devices. INTERFACE LOGIC DEVICE</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7F9FC"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#007D6C"/><stop offset="1" stop-color="#536DDA"/></linearGradient>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F7F8F6"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
   </defs>
   <style>
     @media (prefers-reduced-motion: no-preference) {
-      .pulse { animation: pulse 5s ease-in-out infinite; }
-      .flow { animation: flow 12s linear infinite; }
+      .signal { animation: signal-travel 12s linear infinite; }
+      .node-pulse { animation: node-breathe 6s ease-in-out infinite; }
     }
-    @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
-    @keyframes flow { to { stroke-dashoffset: -20; } }
+    @keyframes signal-travel { to { stroke-dashoffset: -64; } }
+    @keyframes node-breathe {
+      0%, 100% { stroke-opacity: .65; }
+      50% { stroke-opacity: 1; }
+    }
   </style>
-  <rect x="0.5" y="0.5" width="579" height="535" rx="16" fill="url(#bg)" stroke="#CCD6E0"/>
-<path d="M450 1V535M514 1V535" stroke="#E3EAF1" opacity=".45"/>
-  <text x="32" y="53" font-size="16" fill="#526171" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND / SOFTWARE / SYSTEMS</text>
-  <rect x="32" y="70" width="88" height="3" rx="2" fill="url(#accent)" />
-  <text x="32" y="130" font-size="52" fill="#151B23" font-weight="700">BUTTERFLLY</text>
-  <text x="32" y="175" font-size="28" fill="#151B23" font-weight="600">From the interface</text>
-  <text x="32" y="210" font-size="28" fill="#151B23" font-weight="600">to the hardware.</text>
-  <text x="32" y="251" font-size="20" fill="#526171" font-weight="400">I like knowing why a system behaves</text>
-  <text x="32" y="279" font-size="20" fill="#526171" font-weight="400">the way it does.</text>
-  <rect x="32" y="298" width="154" height="30" rx="8" fill="#FFFFFF" stroke="#CCD6E0" />
-  <text x="109.0" y="319" font-size="16" fill="#526171" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">LINUX / OPS</text>
-  <rect x="198" y="298" width="190" height="30" rx="8" fill="#FFFFFF" stroke="#CCD6E0" />
-  <text x="293.0" y="319" font-size="16" fill="#526171" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">EMBEDDED / IoT</text>
-  <rect x="32" y="367" width="516" height="137" rx="12" fill="#FFFFFF" stroke="#CCD6E0" />
-  <text x="56" y="401" font-size="16" fill="#007D6C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">ENGINEERING FOCUS</text>
-  <circle class="pulse" cx="61" cy="432" r="4" fill="#007D6C"/>
-  <text x="56" y="471" font-size="22" fill="#151B23" font-weight="600">Signals</text>
-  <circle class="pulse" cx="228" cy="432" r="4" fill="#007D6C"/>
-  <text x="223" y="471" font-size="22" fill="#151B23" font-weight="600">State</text>
-  <circle class="pulse" cx="395" cy="432" r="4" fill="#007D6C"/>
-  <text x="390" y="471" font-size="22" fill="#151B23" font-weight="600">Feedback</text>
-  <path d="M66 432H380" fill="none" stroke="#CCD6E0" stroke-dasharray="3 7" class="flow"/>
+  <rect x="0.5" y="0.5" width="579" height="389" rx="16" fill="url(#hero-bg)" stroke="#CDD8D6"/>
+  <text x="32" y="54" font-size="16" fill="#536367" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND / SOFTWARE ENGINEERING</text>
+  <rect x="32" y="74" width="86" height="3" rx="1.5" fill="#89603F"/>
+  <text x="32" y="132" font-size="52" fill="#242D30" font-weight="700">BUTTERFLLY</text>
+  <text x="32" y="179" font-size="29" fill="#242D30" font-weight="600">From the interface</text>
+  <text x="32" y="215" font-size="29" fill="#242D30" font-weight="600">to the hardware.</text>
+  <text x="32" y="263" font-size="22" fill="#536367" font-weight="400">Interfaces, services and connected devices.</text>
+  <path d="M160 331H226M354 331H420" fill="none" stroke="#CDD8D6" />
+  <path d="M160 331H226M354 331H420" fill="none" stroke="#236E5C" class="signal" stroke-dasharray="3 13"/>
+  <rect x="32" y="304" width="128" height="54" rx="10" fill="#FFFFFF" stroke="#CDD8D6"/>
+  <text x="96" y="337" font-size="18" fill="#242D30" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">INTERFACE</text>
+  <rect x="226" y="304" width="128" height="54" rx="10" fill="#FFFFFF" stroke="#CDD8D6"/>
+  <text x="290" y="337" font-size="18" fill="#242D30" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">LOGIC</text>
+  <rect x="420" y="304" width="128" height="54" rx="10" fill="#FFFFFF" stroke="#CDD8D6"/>
+  <text x="484" y="337" font-size="18" fill="#242D30" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">DEVICE</text>
 </svg>
