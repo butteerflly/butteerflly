@@ -8,7 +8,7 @@
   <source media="(max-width: 767px)" srcset="./assets/pt-br/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pt-br/hero-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/pt-br/hero-desktop-light.svg">
-  <img alt="FRONTEND / ENGENHARIA DE SOFTWARE BUTTERFLLY Da interface ao hardware. Interfaces, serviços e dispositivos conectados. INTERFACE LÓGICA DISPOSITIVO" src="./assets/pt-br/hero-desktop-dark.svg" width="100%">
+  <img alt="FRONTEND / ENGENHARIA DE SOFTWARE BUTTERFLLY Da interface ao hardware. Interfaces, serviços e dispositivos conectados. SISTEMAS / EMBARCADOS / IoT" src="./assets/pt-br/hero-desktop-dark.svg" width="100%">
 </picture>
 </p>
 
