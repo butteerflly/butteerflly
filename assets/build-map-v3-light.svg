@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Systems map</title><desc id="desc">A clean architecture style diagram showing interfaces, control, services and nodes.</desc>
+  <rect width="1200" height="500" rx="20" fill="#FFFFFF"/><rect x="1" y="1" width="1198" height="498" rx="19" fill="none" stroke="#D0D7DE"/>
+  <text x="52" y="56" fill="#57606A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="2">HOW I LIKE TO BUILD</text>
+  <text x="52" y="108" fill="#161B22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" font-weight="760">Clear layers, visible state and recovery that makes sense</text>
+  <g transform="translate(86 168)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+    <path d="M180 34H334 M470 34H626 M762 34H916" stroke="#C6D0DA" stroke-width="2"/>
+    <path d="M402 78V138 M706 78V138 M402 214V256 M706 214V256" stroke="#C6D0DA" stroke-width="2"/>
+    <g><rect width="180" height="68" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/><circle cx="22" cy="34" r="5" fill="#4E64C8"/><text x="38" y="31" fill="#57606A" font-size="10" letter-spacing="1.2">LAYER 01</text><text x="38" y="49" fill="#161B22" font-size="16">INTERFACES</text></g>
+    <g transform="translate(334 0)"><rect width="136" height="68" rx="14" fill="#F6F8FA" stroke="#008C7A" stroke-width="1.4"/><text x="68" y="31" text-anchor="middle" fill="#008C7A" font-size="10" letter-spacing="1.2">LAYER 02</text><text x="68" y="49" text-anchor="middle" fill="#161B22" font-size="16">CONTROL</text></g>
+    <g transform="translate(626 0)"><rect width="136" height="68" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/><text x="68" y="31" text-anchor="middle" fill="#57606A" font-size="10" letter-spacing="1.2">LAYER 03</text><text x="68" y="49" text-anchor="middle" fill="#161B22" font-size="16">SERVICES</text></g>
+    <g transform="translate(916 0)"><rect width="180" height="68" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/><circle cx="22" cy="34" r="5" fill="#008C7A"/><text x="38" y="31" fill="#57606A" font-size="10" letter-spacing="1.2">LAYER 04</text><text x="38" y="49" fill="#161B22" font-size="16">NODES</text></g>
+    <g transform="translate(258 138)"><rect width="288" height="76" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/><text x="20" y="29" fill="#008C7A" font-size="10" letter-spacing="1.2">SYSTEM PRINCIPLE</text><text x="20" y="51" fill="#161B22" font-size="15">Telemetry should explain the system.</text></g>
+    <g transform="translate(562 138)"><rect width="288" height="76" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/><text x="20" y="29" fill="#008C7A" font-size="10" letter-spacing="1.2">SYSTEM PRINCIPLE</text><text x="20" y="51" fill="#161B22" font-size="15">Recovery should be planned, not improvised.</text></g>
+    <g transform="translate(258 256)"><rect width="288" height="70" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/><text x="20" y="28" fill="#57606A" font-size="10" letter-spacing="1.2">RESULT</text><text x="20" y="51" fill="#161B22" font-size="15">Less guesswork. Better control.</text></g>
+    <g transform="translate(562 256)"><rect width="288" height="70" rx="14" fill="#F6F8FA" stroke="#D0D7DE"/><text x="20" y="28" fill="#57606A" font-size="10" letter-spacing="1.2">RESULT</text><text x="20" y="51" fill="#161B22" font-size="15">More systems that survive real use.</text></g>
+  </g>
+</svg>
