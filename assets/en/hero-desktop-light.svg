@@ -1,37 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" xml:lang="en" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="378" viewBox="0 0 900 378" xml:lang="en" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">ButterFlly. From the interface to the hardware.</title>
-  <desc id="desc">FRONTEND / SOFTWARE ENGINEERING BUTTERFLLY From the interface to the hardware. Interfaces, services and connected devices. INTERFACE LOGIC DEVICE</desc>
+  <desc id="desc">FRONTEND / SOFTWARE ENGINEERING BUTTERFLLY From the interface to the hardware. Interfaces, services and connected devices. SYSTEMS / EMBEDDED / IoT</desc>
   <defs>
-    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="hero-bg" x1="0" y1="1" x2="1" y2="0">
       <stop stop-color="#F7F8F6"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="hero-halo">
+      <stop stop-color="#236E5C" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#236E5C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wing-upper" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#236E5C" stop-opacity=".02"/>
+      <stop offset="1" stop-color="#236E5C" stop-opacity=".16"/>
+    </linearGradient>
+    <linearGradient id="wing-lower" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#89603F" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#89603F" stop-opacity=".02"/>
     </linearGradient>
   </defs>
   <style>
     @media (prefers-reduced-motion: no-preference) {
-      .signal { animation: signal-travel 12s linear infinite; }
-      .node-pulse { animation: node-breathe 6s ease-in-out infinite; }
+      .signal { animation: signal-travel 18s linear infinite; }
+      .signal-return { animation-duration: 24s; animation-direction: reverse; }
     }
-    @keyframes signal-travel { to { stroke-dashoffset: -64; } }
-    @keyframes node-breathe {
-      0%, 100% { stroke-opacity: .65; }
-      50% { stroke-opacity: 1; }
-    }
+    @keyframes signal-travel { to { stroke-dashoffset: -100; } }
   </style>
-  <rect x="0.5" y="0.5" width="899" height="319" rx="16" fill="url(#hero-bg)" stroke="#CDD8D6"/>
-  <text x="32" y="54" font-size="16" fill="#536367" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND / SOFTWARE ENGINEERING</text>
-  <rect x="32" y="74" width="86" height="3" rx="1.5" fill="#89603F"/>
-  <text x="32" y="132" font-size="52" fill="#242D30" font-weight="700">BUTTERFLLY</text>
-  <text x="32" y="179" font-size="29" fill="#242D30" font-weight="600">From the interface</text>
-  <text x="32" y="215" font-size="29" fill="#242D30" font-weight="600">to the hardware.</text>
-  <text x="32" y="263" font-size="20" fill="#536367" font-weight="400">Interfaces, services and connected devices.</text>
-  <path d="M576 42V286" fill="none" stroke="#CDD8D6" />
-  <path d="M672 108V163H704M768 163H804V220" fill="none" stroke="#CDD8D6" />
-  <path d="M672 108V163H704M768 163H804V220" fill="none" stroke="#236E5C" class="signal" stroke-dasharray="3 13"/>
-  <path d="M804 220V81H736" fill="none" stroke="#CDD8D6" stroke-dasharray="2 7" opacity=".65"/>
-  <rect x="608" y="54" width="128" height="54" rx="10" fill="#FFFFFF" stroke="#CDD8D6"/>
-  <text x="672" y="87" font-size="15" fill="#242D30" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">INTERFACE</text>
-  <circle cx="736" cy="163" r="32" fill="#FFFFFF" stroke="#89603F" class="node-pulse"/>
-  <text x="736" y="168" font-size="15" fill="#89603F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">LOGIC</text>
-  <rect x="740" y="220" width="128" height="54" rx="10" fill="#FFFFFF" stroke="#CDD8D6"/>
-  <text x="804" y="253" font-size="15" fill="#242D30" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">DEVICE</text>
+  <rect x="0.5" y="0.5" width="899" height="377" rx="16" fill="url(#hero-bg)" stroke="#CDD8D6"/>
+  <ellipse cx="704" cy="180" rx="190" ry="174" fill="url(#hero-halo)"/>
+  <g transform="translate(548 0) scale(1)" aria-hidden="true" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M42 262L276 28M84 302L302 84" fill="none" stroke="#CDD8D6" opacity=".4"/>
+  <path d="M26 70H38M32 64V76M290 274H302M296 268V280" fill="none" stroke="#89603F" opacity=".5"/>
+  <path d="M84 248L100 152Q172 58 292 28L266 128Q216 205 84 248Z" fill="url(#wing-upper)"/>
+  <path d="M98 262Q189 203 284 214L246 280Q180 322 124 304Z" fill="url(#wing-lower)"/>
+  <path d="M84 248L100 152Q172 58 292 28L266 128Q216 205 84 248" fill="none" stroke="#236E5C" stroke-width="1.3" opacity=".75"/>
+  <path d="M98 262Q189 203 284 214L246 280Q180 322 124 304" fill="none" stroke="#89603F" stroke-width="1.3" opacity=".85"/>
+  <path d="M48 258L80 166Q177 88 278 48" fill="none" stroke="#236E5C" opacity="0.280"/>
+  <path d="M58 261L89 171Q184 99 268 63" fill="none" stroke="#236E5C" opacity="0.355"/>
+  <path d="M68 264L98 176Q191 110 258 78" fill="none" stroke="#236E5C" opacity="0.430"/>
+  <path d="M78 267L107 181Q198 121 248 93" fill="none" stroke="#236E5C" opacity="0.505"/>
+  <path d="M88 270L116 186Q205 132 238 108" fill="none" stroke="#236E5C" opacity="0.580"/>
+  <path d="M98 273L125 191Q212 143 228 123" fill="none" stroke="#236E5C" opacity="0.655"/>
+  <path d="M108 276L134 196Q219 154 218 138" fill="none" stroke="#236E5C" opacity="0.730"/>
+  <path d="M108 278Q179 223 271 232" fill="none" stroke="#89603F" opacity="0.28"/>
+  <path d="M115 283Q185 232 264 242" fill="none" stroke="#89603F" opacity="0.38"/>
+  <path d="M122 288Q191 241 257 252" fill="none" stroke="#89603F" opacity="0.48"/>
+  <path d="M129 293Q197 250 250 262" fill="none" stroke="#89603F" opacity="0.58"/>
+  <path d="M136 298Q203 259 243 272" fill="none" stroke="#89603F" opacity="0.68"/>
+  <path d="M64 290L124 230L210 148L272 76" fill="none" stroke="#89603F" stroke-width="1.5"/>
+  <path d="M48 258L80 166Q177 88 278 48" fill="none" stroke="#236E5C" class="signal" pathLength="100" stroke-width="2" stroke-dasharray="3 97" opacity=".85"/>
+  <path d="M108 278Q179 223 271 232" fill="none" stroke="#89603F" class="signal signal-return" pathLength="100" stroke-width="2" stroke-dasharray="3 97" opacity=".8"/>
+  <circle cx="64" cy="290" r="3.5" fill="#F7F8F6" stroke="#89603F"/>
+  <circle cx="272" cy="76" r="3.5" fill="#F7F8F6" stroke="#89603F"/>
+  </g>
+  <text x="32" y="48" font-size="14" fill="#536367" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" letter-spacing="0.4">FRONTEND / SOFTWARE ENGINEERING</text>
+  <text x="30" y="126" font-size="72" fill="#242D30" font-weight="700" letter-spacing="-2.4">BUTTERFLLY</text>
+  <rect x="32" y="146" width="52" height="2" rx="1" fill="#89603F"/>
+  <text x="32" y="205" font-size="39" fill="#242D30" font-weight="500" letter-spacing="-0.6">From the interface</text>
+  <text x="32" y="248" font-size="39" fill="#242D30" font-weight="500" letter-spacing="-0.6">to the hardware.</text>
+  <text x="32" y="291" font-size="19" fill="#536367" font-weight="400">Interfaces, services and connected devices.</text>
+  <path d="M32 332H868" fill="none" stroke="#CDD8D6" />
+  <text x="32" y="358" font-size="15" fill="#536367" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">SYSTEMS / EMBEDDED / IoT</text>
 </svg>

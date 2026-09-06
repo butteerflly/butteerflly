@@ -29,7 +29,7 @@ COPY = {
         'eyebrow': 'FRONTEND / ENGENHARIA DE SOFTWARE',
         'headline': ('Da interface', 'ao hardware.'),
         'intro': 'Interfaces, serviços e dispositivos conectados.',
-        'nodes': ('INTERFACE', 'LÓGICA', 'DISPOSITIVO'),
+        'hero_scope': 'SISTEMAS / EMBARCADOS / IoT',
         'profile_label': 'PERFIL TÉCNICO',
         'profile': ('Minha especialidade é frontend.',),
         'about_heading': 'Sobre mim',
@@ -75,7 +75,7 @@ COPY = {
         'eyebrow': 'FRONTEND / SOFTWARE ENGINEERING',
         'headline': ('From the interface', 'to the hardware.'),
         'intro': 'Interfaces, services and connected devices.',
-        'nodes': ('INTERFACE', 'LOGIC', 'DEVICE'),
+        'hero_scope': 'SYSTEMS / EMBEDDED / IoT',
         'profile_label': 'ENGINEERING PROFILE',
         'profile': ('I specialize in frontend engineering.',),
         'about_heading': 'About',
@@ -143,12 +143,14 @@ class Artwork:
             f'rx="{radius}" fill="{self.color(fill)}"{stroke}/>')
 
     def text(self, x, y, value, size=20, color='text', weight=400,
-             mono=False, anchor=None):
+             mono=False, anchor=None, tracking=None):
         attrs = f'font-size="{size}" fill="{self.color(color)}" font-weight="{weight}"'
         if mono:
             attrs += ' font-family="Consolas,\'Liberation Mono\',monospace"'
         if anchor:
             attrs += f' text-anchor="{anchor}"'
+        if tracking is not None:
+            attrs += f' letter-spacing="{tracking}"'
         self.parts.append(f'<text x="{x}" y="{y}" {attrs}>{escape(value)}</text>')
         self.description.append(value)
 
@@ -159,50 +161,80 @@ class Artwork:
     def label(self, x, y, value, color='accent'):
         self.text(x, y, value, 16, color, mono=True)
 
-    def diagram(self, x, y):
-        # A conceptual relationship, not a project architecture.
-        interface, logic, device = self.copy['nodes']
-        if self.mobile:
-            self.path(f'M{x+148} {y+27}H{x+184}M{x+332} {y+27}H{x+368}')
-            self.path(f'M{x+148} {y+27}H{x+184}M{x+332} {y+27}H{x+368}',
-                      'accent', 'class="signal" stroke-dasharray="3 13"')
-            for offset, label in zip((0, 184, 368), (interface, logic, device)):
-                self.rect(x+offset, y, 148, 54, radius=10)
-                self.text(x+offset+74, y+33, label, 18, anchor='middle', mono=True)
-        else:
-            route = (f'M{x+64} {y+54}V{y+109}H{x+96}'
-                     f'M{x+160} {y+109}H{x+196}V{y+166}')
-            self.path(route)
-            self.path(route, 'accent', 'class="signal" stroke-dasharray="3 13"')
-            self.path(f'M{x+196} {y+166}V{y+27}H{x+128}',
-                      'border', 'stroke-dasharray="2 7" opacity=".65"')
-            self.rect(x, y, 128, 54, radius=10)
-            self.text(x+64, y+33, interface, 15, anchor='middle', mono=True)
-            self.parts.append(
-                f'<circle cx="{x+128}" cy="{y+109}" r="32" '
-                f'fill="{self.color("panel")}" stroke="{self.color("copper")}" '
-                f'class="node-pulse"/>')
-            self.text(x+128, y+114, logic, 15, 'copper', mono=True, anchor='middle')
-            self.rect(x+132, y+166, 128, 54, radius=10)
-            self.text(x+196, y+199, device, 15, anchor='middle', mono=True)
+    def signature(self, x, y, scale=1):
+        """Swept, asymmetric laminae: an abstract wing built as routed signals.
+
+        Coordinates belong to a 320 × 320 optical field. No nodes or labels
+        imply a live system. The two planes share a diagonal fold, not an axis
+        of symmetry; the silhouette is intentionally incomplete.
+        """
+        self.parts.append(f'<g transform="translate({x} {y}) scale({scale})" '
+                          'aria-hidden="true" stroke-linejoin="round" stroke-linecap="round">')
+        # Recessed construction plane and its sparse registration marks.
+        self.path('M42 262L276 28M84 302L302 84', 'border', 'opacity=".4"')
+        self.path('M26 70H38M32 64V76M290 274H302M296 268V280',
+                  'copper', 'opacity=".5"')
+        # A quiet surface beneath the engraving gives depth even without motion.
+        self.parts.append('<path d="M84 248L100 152Q172 58 292 28'
+                          'L266 128Q216 205 84 248Z" fill="url(#wing-upper)"/>')
+        self.parts.append('<path d="M98 262Q189 203 284 214L246 280'
+                          'Q180 322 124 304Z" fill="url(#wing-lower)"/>')
+        # Contours are routed, not a literal butterfly outline.
+        self.path('M84 248L100 152Q172 58 292 28L266 128Q216 205 84 248',
+                  'accent', 'stroke-width="1.3" opacity=".75"')
+        self.path('M98 262Q189 203 284 214L246 280Q180 322 124 304',
+                  'copper', 'stroke-width="1.3" opacity=".85"')
+        # Parallel traces fan out along the upper plane; uniform spacing at entry.
+        for i in range(7):
+            start_x, start_y = 48+i*10, 258+i*3
+            elbow_x, elbow_y = 80+i*9, 166+i*5
+            tip_x, tip_y = 278-i*10, 48+i*15
+            bend_x, bend_y = 177+i*7, 88+i*11
+            d = (f'M{start_x} {start_y}L{elbow_x} {elbow_y}'
+                 f'Q{bend_x} {bend_y} {tip_x} {tip_y}')
+            self.path(d, 'accent', f'opacity="{.28+i*.075:.3f}"')
+        for i in range(5):
+            self.path(f'M{108+i*7} {278+i*5}'
+                      f'Q{179+i*6} {223+i*9} {271-i*7} {232+i*10}',
+                      'copper', f'opacity="{.28+i*.1:.2f}"')
+        # The fold and its open terminals create a signature separate from UI cards.
+        self.path('M64 290L124 230L210 148L272 76', 'copper', 'stroke-width="1.5"')
+        self.path('M48 258L80 166Q177 88 278 48', 'accent',
+                  'class="signal" pathLength="100" stroke-width="2" '
+                  'stroke-dasharray="3 97" opacity=".85"')
+        self.path('M108 278Q179 223 271 232', 'copper',
+                  'class="signal signal-return" pathLength="100" '
+                  'stroke-width="2" stroke-dasharray="3 97" opacity=".8"')
+        for cx, cy in ((64, 290), (272, 76)):
+            self.parts.append(f'<circle cx="{cx}" cy="{cy}" r="3.5" '
+                              f'fill="{self.color("bg")}" stroke="{self.color("copper")}"/>')
+        self.parts.append('</g>')
 
     def finish(self, title, height, surface=False, hero=False):
         t = self.theme
         definitions = f'''  <defs>
-    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="hero-bg" x1="0" y1="1" x2="1" y2="0">
       <stop stop-color="{t['bg']}"/><stop offset="1" stop-color="{t['end']}"/>
+    </linearGradient>
+    <radialGradient id="hero-halo">
+      <stop stop-color="{t['accent']}" stop-opacity=".10"/>
+      <stop offset="1" stop-color="{t['accent']}" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wing-upper" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="{t['accent']}" stop-opacity=".02"/>
+      <stop offset="1" stop-color="{t['accent']}" stop-opacity=".16"/>
+    </linearGradient>
+    <linearGradient id="wing-lower" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="{t['copper']}" stop-opacity=".12"/>
+      <stop offset="1" stop-color="{t['copper']}" stop-opacity=".02"/>
     </linearGradient>
   </defs>'''
         motion = '''  <style>
     @media (prefers-reduced-motion: no-preference) {
-      .signal { animation: signal-travel 12s linear infinite; }
-      .node-pulse { animation: node-breathe 6s ease-in-out infinite; }
+      .signal { animation: signal-travel 18s linear infinite; }
+      .signal-return { animation-duration: 24s; animation-direction: reverse; }
     }
-    @keyframes signal-travel { to { stroke-dashoffset: -64; } }
-    @keyframes node-breathe {
-      0%, 100% { stroke-opacity: .65; }
-      50% { stroke-opacity: 1; }
-    }
+    @keyframes signal-travel { to { stroke-dashoffset: -100; } }
   </style>'''
         frame = ''
         if surface:
@@ -229,18 +261,29 @@ def render(kind, theme, mobile=False, locale='pt-br'):
     body_size = 21 if mobile else 19
     title = c['headings'][kind]
     if kind == 'hero':
-        a.label(p, 54, c['eyebrow'], 'muted')
-        a.rect(p, 74, 86, 3, 'copper', 1.5, False)
-        a.text(p, 132, 'BUTTERFLLY', 52, weight=700)
-        for i, line in enumerate(c['headline']):
-            a.text(p, 179+i*36, line, 29, weight=600)
-        a.text(p, 263, c['intro'], 22 if mobile else 20, 'muted')
+        # Desktop and mobile have separate editorial arrangements.
+        height = 606 if mobile else 378
         if mobile:
-            a.diagram(p, 304)
-            return a.finish(title, 390, True, True)
-        a.path('M576 42V286')
-        a.diagram(608, 54)
-        return a.finish(title, 320, True, True)
+            a.parts.append('<ellipse cx="310" cy="430" rx="190" ry="145" '
+                           'fill="url(#hero-halo)"/>')
+            a.signature(150, 287, .8)
+        else:
+            a.parts.append('<ellipse cx="704" cy="180" rx="190" ry="174" '
+                           'fill="url(#hero-halo)"/>')
+            a.signature(548, 0, 1)
+        a.text(p, 48, c['eyebrow'], 17 if mobile else 14, 'muted', mono=True, tracking=.4)
+        a.text(p-2, 126, 'BUTTERFLLY', 72, weight=700, tracking=-2.4)
+        a.rect(p, 146, 52, 2, 'copper', 1, False)
+        for i, line in enumerate(c['headline']):
+            a.text(p, 205+i*43, line, 39, weight=500, tracking=-.6)
+        a.text(p, 291, c['intro'], 23 if mobile else 19, 'muted')
+        if mobile:
+            a.path('M32 560H548')
+            a.text(p, 584, c['hero_scope'], 17, 'muted', mono=True)
+        else:
+            a.path('M32 332H868')
+            a.text(p, 358, c['hero_scope'], 15, 'muted', mono=True)
+        return a.finish(title, height, True, True)
     if kind == 'console':
         a.label(p, 24, c['profile_label'], 'muted')
         if mobile:
