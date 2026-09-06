@@ -1,50 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-<title id="title">ButterFlly — Software, Systems, IoT and Automation</title>
-<desc id="desc">Engineering profile banner with a control-plane systems diagram.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">ButterFlly profile header</title><desc id="desc">Software, systems, IoT, infrastructure and automation.</desc>
 <defs>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#18202A" stroke-width="1"/></pattern>
-  <linearGradient id="accentLine" x1="0" x2="1"><stop offset="0" stop-color="#3EE6D0"/><stop offset="1" stop-color="#7C93FF"/></linearGradient>
-  <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="12"/></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#16202B" stroke-width="1"/></pattern>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#45E6D2"/><stop offset="1" stop-color="#7C93FF"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#0F5A58" stop-opacity=".75"/><stop offset="1" stop-color="#0F5A58" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+  <style>
+    .pulse{animation:pulse 2.4s ease-in-out infinite} .p2{animation-delay:.8s} .p3{animation-delay:1.6s}
+    .scan{animation:scan 7s linear infinite} .blink{animation:blink 1.8s steps(2,end) infinite}
+    @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}} @keyframes blink{50%{opacity:.25}}
+    @keyframes scan{0%{transform:translateX(-260px)}100%{transform:translateX(1200px)}}
+  </style>
 </defs>
-<rect width="1200" height="340" rx="22" fill="#0A0D12"/>
-<rect x="1" y="1" width="1198" height="338" rx="21" fill="none" stroke="#222C38"/>
-<rect width="1200" height="340" rx="22" fill="url(#grid)" opacity=".72"/>
-<circle cx="958" cy="166" r="112" fill="#153C3A" opacity=".42" filter="url(#softGlow)"/>
+<rect width="1200" height="420" rx="24" fill="#070B10"/>
+<rect x="1" y="1" width="1198" height="418" rx="23" fill="none" stroke="#243241"/>
+<rect width="1200" height="420" rx="24" fill="url(#grid)" opacity=".74"/>
+<circle cx="962" cy="181" r="196" fill="url(#halo)" filter="url(#blur)" opacity=".75"/>
+<g class="scan" opacity=".16"><rect x="0" y="0" width="160" height="420" fill="url(#accent)"/></g>
 
-<!-- left identity -->
-<text x="58" y="56" fill="#8D99A8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="2.4">BUTTERFLLY // SYSTEM PROFILE</text>
-<rect x="58" y="77" width="92" height="3" rx="2" fill="url(#accentLine)"/>
-<text x="56" y="145" fill="#F2F5F8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="760" letter-spacing="-2.8">BUTTERFLLY</text>
-<text x="59" y="183" fill="#8D99A8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="1.8">SOFTWARE  ·  SYSTEMS  ·  IoT  ·  AUTOMATION</text>
-<text x="59" y="224" fill="#F2F5F8" opacity=".90" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Building software that connects infrastructure, devices and the physical world.</text>
-
-<g transform="translate(58 257)">
-  <rect width="170" height="34" rx="17" fill="#0F141B" stroke="#222C38"/>
-  <circle cx="19" cy="17" r="5" fill="#3EE6D0"/>
-  <text x="33" y="22" fill="#8D99A8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="1">CURRENTLY BUILDING</text>
-</g>
-<text x="244" y="279" fill="#F2F5F8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">HOME IOT / CONTROL SYSTEMS</text>
-
-<!-- right system diagram -->
 <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
-  <path d="M826 91 L908 137 M1038 91 L956 137 M826 235 L908 190 M1038 235 L956 190" stroke="#2A3948" stroke-width="2" fill="none"/>
-  <path d="M933 119 V93 M933 208 V232" stroke="#2A3948" stroke-width="2"/>
+  <text x="54" y="48" fill="#8D9AAA" font-size="12" letter-spacing="2.5">PROFILE / ENGINEERING SYSTEMS</text>
+  <text x="1125" y="48" text-anchor="end" fill="#8D9AAA" font-size="11" letter-spacing="1.7">BUILDING THINGS THAT TALK TO OTHER THINGS</text>
+</g>
 
-  <g transform="translate(866 132)">
-    <rect width="136" height="74" rx="14" fill="#0F141B" stroke="#3EE6D0" stroke-width="1.5"/>
-    <text x="68" y="28" text-anchor="middle" fill="#3EE6D0" font-size="11" letter-spacing="1.6">CONTROL</text>
-    <text x="68" y="48" text-anchor="middle" fill="#F2F5F8" font-size="15" font-weight="700">PLANE</text>
-    <circle cx="21" cy="59" r="3" fill="#3EE6D0"/>
-    <circle cx="31" cy="59" r="3" fill="#7C93FF"/>
-    <circle cx="41" cy="59" r="3" fill="#8D99A8" opacity=".6"/>
+<g transform="translate(54 88)">
+  <rect width="604" height="208" rx="18" fill="#0D131B" stroke="#243241"/>
+  <rect x="0" y="0" width="7" height="208" rx="3" fill="url(#accent)"/>
+  <text x="30" y="62" fill="#F4F7FA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="68" font-weight="800" letter-spacing="-3.2">BUTTERFLLY</text>
+  <text x="33" y="98" fill="#45E6D2" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="1.7">SOFTWARE  ·  SYSTEMS  ·  IoT  ·  INFRASTRUCTURE</text>
+  <text x="33" y="135" fill="#F4F7FA" opacity=".92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Most projects live somewhere between a browser,</text>
+  <text x="33" y="159" fill="#F4F7FA" opacity=".92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">a Linux box and a real piece of hardware.</text>
+  <g transform="translate(32 178)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+    <circle cx="6" cy="6" r="5" fill="#63E6A6" class="blink"/>
+    <text x="20" y="10" fill="#8D9AAA" font-size="11" letter-spacing="1.2">CURRENT FOCUS</text>
+    <text x="126" y="10" fill="#F4F7FA" font-size="11">HOME IOT / CONTROL SYSTEMS</text>
   </g>
+</g>
 
-  <g transform="translate(755 61)"><rect width="144" height="48" rx="12" fill="#121A22" stroke="#222C38"/><circle cx="18" cy="24" r="5" fill="#7C93FF"/><text x="32" y="29" fill="#F2F5F8" font-size="13">WEB / UI</text></g>
-  <g transform="translate(968 61)"><rect width="144" height="48" rx="12" fill="#121A22" stroke="#222C38"/><circle cx="18" cy="24" r="5" fill="#3EE6D0"/><text x="32" y="29" fill="#F2F5F8" font-size="13">LINUX NODE</text></g>
-  <g transform="translate(755 231)"><rect width="144" height="48" rx="12" fill="#121A22" stroke="#222C38"/><circle cx="18" cy="24" r="5" fill="#3EE6D0"/><text x="32" y="29" fill="#F2F5F8" font-size="13">ESP32 NODE</text></g>
-  <g transform="translate(968 231)"><rect width="144" height="48" rx="12" fill="#121A22" stroke="#222C38"/><circle cx="18" cy="24" r="5" fill="#7C93FF"/><text x="32" y="29" fill="#F2F5F8" font-size="13">PC AGENT</text></g>
+<g transform="translate(710 84)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+  <circle cx="207" cy="122" r="114" fill="#0D131B" stroke="#243241"/>
+  <circle cx="207" cy="122" r="82" fill="none" stroke="#243241" stroke-dasharray="4 8"/>
+  <circle cx="207" cy="122" r="48" fill="#101923" stroke="#45E6D2" stroke-width="1.5"/>
+  <text x="207" y="116" text-anchor="middle" fill="#45E6D2" font-size="10" letter-spacing="1.4">CONTROL</text>
+  <text x="207" y="136" text-anchor="middle" fill="#F4F7FA" font-size="14" font-weight="700">PLANE</text>
+  <circle cx="207" cy="40" r="6" fill="#45E6D2" class="pulse"/><circle cx="289" cy="122" r="6" fill="#7C93FF" class="pulse p2"/><circle cx="207" cy="204" r="6" fill="#63E6A6" class="pulse p3"/><circle cx="125" cy="122" r="6" fill="#45E6D2" class="pulse p2"/>
+  <path d="M207 74V46M255 122h28M207 170v28M159 122h-28" stroke="#243241" stroke-width="2"/>
+  <text x="207" y="18" text-anchor="middle" fill="#8D9AAA" font-size="10" letter-spacing="1">WEB / UI</text>
+  <text x="351" y="126" fill="#8D9AAA" font-size="10" letter-spacing="1">LINUX</text>
+  <text x="207" y="242" text-anchor="middle" fill="#8D9AAA" font-size="10" letter-spacing="1">ESP32</text>
+  <text x="54" y="126" fill="#8D9AAA" font-size="10" letter-spacing="1">PC AGENT</text>
+</g>
 
-  <text x="933" y="47" text-anchor="middle" fill="#8D99A8" font-size="10" letter-spacing="1.3">REALTIME / OBSERVABLE / RESILIENT</text>
-  <text x="933" y="307" text-anchor="middle" fill="#8D99A8" font-size="10" letter-spacing="1.3">SOFTWARE / INFRASTRUCTURE / HARDWARE</text>
+<g transform="translate(54 326)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+  <g transform="translate(0 0)"><rect width="172" height="48" rx="12" fill="#0D131B" stroke="#243241"/><text x="14" y="20" fill="#8D9AAA" font-size="9" letter-spacing="1.2">MODE</text><text x="14" y="36" fill="#F4F7FA" font-size="11" font-weight="700">BUILD + BREAK + FIX</text></g><g transform="translate(188 0)"><rect width="172" height="48" rx="12" fill="#0D131B" stroke="#243241"/><text x="14" y="20" fill="#8D9AAA" font-size="9" letter-spacing="1.2">STACK</text><text x="14" y="36" fill="#F4F7FA" font-size="11" font-weight="700">WEB TO HARDWARE</text></g><g transform="translate(376 0)"><rect width="172" height="48" rx="12" fill="#0D131B" stroke="#243241"/><text x="14" y="20" fill="#8D9AAA" font-size="9" letter-spacing="1.2">SIGNAL</text><text x="14" y="36" fill="#F4F7FA" font-size="11" font-weight="700">REALTIME</text></g><g transform="translate(564 0)"><rect width="172" height="48" rx="12" fill="#0D131B" stroke="#243241"/><text x="14" y="20" fill="#8D9AAA" font-size="9" letter-spacing="1.2">OPS</text><text x="14" y="36" fill="#F4F7FA" font-size="11" font-weight="700">OBSERVABLE</text></g><g transform="translate(752 0)"><rect width="172" height="48" rx="12" fill="#0D131B" stroke="#243241"/><text x="14" y="20" fill="#8D9AAA" font-size="9" letter-spacing="1.2">RECOVERY</text><text x="14" y="36" fill="#F4F7FA" font-size="11" font-weight="700">ALWAYS HAVE A WAY BACK</text></g><g transform="translate(940 0)"><rect width="172" height="48" rx="12" fill="#0D131B" stroke="#243241"/><text x="14" y="20" fill="#8D9AAA" font-size="9" letter-spacing="1.2">LOCATION</text><text x="14" y="36" fill="#F4F7FA" font-size="11" font-weight="700">SOMEWHERE IN NEW MEXICO</text></g>
 </g>
 </svg>
