@@ -8,7 +8,7 @@
   <source media="(max-width: 767px)" srcset="./assets/en/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/en/hero-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/en/hero-desktop-light.svg">
-  <img alt="FRONTEND / SOFTWARE ENGINEERING BUTTERFLLY From the interface to the hardware. Interfaces, services and connected devices. SYSTEMS / EMBEDDED / IoT" src="./assets/en/hero-desktop-dark.svg" width="100%">
+  <img alt="SOFTWARE ENGINEERING / SYSTEMS BUTTERFLLY From the interface to the hardware. Services, interfaces and connected devices. LINUX / EMBEDDED / IoT" src="./assets/en/hero-desktop-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -18,13 +18,13 @@
   <source media="(max-width: 767px)" srcset="./assets/en/console-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/en/console-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/en/console-desktop-light.svg">
-  <img alt="ENGINEERING PROFILE I specialize in frontend engineering." src="./assets/en/console-desktop-dark.svg" width="100%">
+  <img alt="ENGINEERING CRITERIA State, response time and recovery." src="./assets/en/console-desktop-dark.svg" width="100%">
 </picture>
 </p>
 
 ## About
 
-I work with web interfaces, backend services, Linux and embedded systems. I like investigating problems that cross those boundaries, especially when device communication or system response times are involved.
+I work on software and connected systems, including Linux services, automation, telemetry, embedded systems and web interfaces. I like understanding how the parts communicate and what happens when something fails.
 
 ## Fields I work in
 
@@ -34,7 +34,7 @@ I work with web interfaces, backend services, Linux and embedded systems. I like
   <source media="(max-width: 767px)" srcset="./assets/en/fields-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/en/fields-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/en/fields-desktop-light.svg">
-  <img alt="01 / INTERFACES Frontend engineering Interaction, application state and responsive layouts. 02 / SOFTWARE Services &amp; automation APIs, background work and Linux services. 03 / HARDWARE Embedded systems Firmware, sensors and serial communication. 04 / CONNECTIVITY IoT &amp; realtime software Device integration, telemetry and message exchange." src="./assets/en/fields-desktop-dark.svg" width="100%">
+  <img alt="01 / SOFTWARE Systems &amp; automation Linux services, APIs and background work. 02 / DEVICES Embedded systems Firmware, sensors and serial communication. 03 / CONNECTIVITY IoT &amp; realtime software Device integration, telemetry and message exchange. 04 / INTERFACES Web interfaces Frontend, application state and interaction with the system." src="./assets/en/fields-desktop-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -46,7 +46,7 @@ I work with web interfaces, backend services, Linux and embedded systems. I like
   <source media="(max-width: 767px)" srcset="./assets/en/toolbox-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/en/toolbox-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/en/toolbox-desktop-light.svg">
-  <img alt="FRONTEND &amp; INTERFACES TypeScript · React · Vite SYSTEMS &amp; BACKEND Go · C# · .NET · Node.js EMBEDDED &amp; IoT ESP32 · UART · I²C · OTA INFRA &amp; OBSERVABILITY Linux · Docker · Prometheus GitHub Actions · Tailscale" src="./assets/en/toolbox-desktop-dark.svg" width="100%">
+  <img alt="SYSTEMS &amp; BACKEND Go · C# · .NET · Node.js EMBEDDED &amp; IoT ESP32 · UART · I²C · OTA FRONTEND &amp; INTERFACES TypeScript · React · Vite INFRA &amp; OBSERVABILITY Linux · Docker · Prometheus GitHub Actions · Tailscale" src="./assets/en/toolbox-desktop-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -58,7 +58,7 @@ I work with web interfaces, backend services, Linux and embedded systems. I like
   <source media="(max-width: 767px)" srcset="./assets/en/build-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/en/build-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/en/build-desktop-light.svg">
-  <img alt="01 Make state visible Show loading, stale data and errors clearly. 02 Test when things fail Check timing, retries and lost connections. 03 Make recovery practical Leave useful logs and a way to roll back changes." src="./assets/en/build-desktop-dark.svg" width="100%">
+  <img alt="01 Make state observable Use logs, metrics and clear signals to understand system behavior. 02 Test when things fail Check timing, retries and lost connections. 03 Make recovery practical Leave useful logs and a way to roll back changes." src="./assets/en/build-desktop-dark.svg" width="100%">
 </picture>
 </p>
 

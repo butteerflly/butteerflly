@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" xml:lang="pt-BR" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">Como gosto de trabalhar</title>
-  <desc id="desc">01 Deixar o estado claro Carregamento, dados desatualizados e erros precisam ficar visíveis. 02 Testar quando as coisas falham Verificar atrasos, novas tentativas e perda de conexão. 03 Facilitar a recuperação Manter logs úteis e um caminho para reverter mudanças.</desc>
+  <desc id="desc">01 Tornar o estado observável Logs, métricas e sinais claros para entender o comportamento. 02 Testar quando as coisas falham Verificar atrasos, novas tentativas e perda de conexão. 03 Facilitar a recuperação Manter logs úteis e um caminho para reverter mudanças.</desc>
   <text x="32" y="46" font-size="16" fill="#89603F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01</text>
-  <text x="78" y="46" font-size="23" fill="#242D30" font-weight="600">Deixar o estado claro</text>
-  <text x="78" y="78" font-size="19" fill="#536367" font-weight="400">Carregamento, dados desatualizados e erros precisam ficar visíveis.</text>
+  <text x="78" y="46" font-size="23" fill="#242D30" font-weight="600">Tornar o estado observável</text>
+  <text x="78" y="78" font-size="19" fill="#536367" font-weight="400">Logs, métricas e sinais claros para entender o comportamento.</text>
   <path d="M78 92H868" fill="none" stroke="#CDD8D6" />
   <text x="32" y="132" font-size="16" fill="#89603F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02</text>
   <text x="78" y="132" font-size="23" fill="#242D30" font-weight="600">Testar quando as coisas falham</text>

@@ -26,16 +26,16 @@ COPY = {
     'pt-br': {
         'lang': 'pt-BR', 'file': 'README.md',
         'selector': '<strong>Português</strong> · <a href="./README.en.md">English</a>',
-        'eyebrow': 'FRONTEND / ENGENHARIA DE SOFTWARE',
+        'eyebrow': 'ENGENHARIA DE SOFTWARE / SISTEMAS',
         'headline': ('Da interface', 'ao hardware.'),
-        'intro': 'Interfaces, serviços e dispositivos conectados.',
-        'hero_scope': 'SISTEMAS / EMBARCADOS / IoT',
-        'profile_label': 'PERFIL TÉCNICO',
-        'profile': ('Minha especialidade é frontend.',),
+        'intro': 'Serviços, interfaces e dispositivos conectados.',
+        'hero_scope': 'LINUX / EMBARCADOS / IoT',
+        'profile_label': 'CRITÉRIO DE ENGENHARIA',
+        'profile': ('Estado, tempo de resposta e recuperação.',),
         'about_heading': 'Sobre mim',
-        'about': ('Trabalho com interfaces web, serviços de backend, Linux e sistemas embarcados. '
-                  'Gosto de investigar problemas que passam por essas áreas, principalmente quando '
-                  'envolvem comunicação com dispositivos ou o tempo de resposta do sistema.'),
+        'about': ('Trabalho com software e sistemas conectados. Isso inclui serviços Linux, automação, '
+                  'telemetria, sistemas embarcados e interfaces web. Gosto de entender como as partes '
+                  'se comunicam e o que acontece quando algo falha.'),
         'headings': {
             'hero': 'ButterFlly. Da interface ao hardware.',
             'console': 'Perfil técnico', 'fields': 'Áreas de atuação',
@@ -44,20 +44,20 @@ COPY = {
             'footer': 'ButterFlly. Discord: .butterflly',
         },
         'fields': (
-            ('01 / INTERFACES', 'Engenharia de frontend',
-             ('Interação, estado da aplicação', 'e layouts responsivos.')),
-            ('02 / SOFTWARE', 'Serviços e automação',
-             ('APIs, tarefas em segundo plano', 'e serviços Linux.')),
-            ('03 / HARDWARE', 'Sistemas embarcados',
+            ('01 / SOFTWARE', 'Sistemas e automação',
+             ('Serviços Linux, APIs', 'e tarefas em segundo plano.')),
+            ('02 / DISPOSITIVOS', 'Sistemas embarcados',
              ('Firmware, sensores', 'e comunicação serial.')),
-            ('04 / CONECTIVIDADE', 'IoT e tempo real',
+            ('03 / CONECTIVIDADE', 'IoT e tempo real',
              ('Integração de dispositivos,', 'telemetria e troca de mensagens.')),
+            ('04 / INTERFACES', 'Interfaces web',
+             ('Frontend, estado da aplicação', 'e interação com o sistema.')),
         ),
-        'toolbox_labels': ('FRONTEND E INTERFACES', 'SISTEMAS E BACKEND',
-                           'EMBARCADOS E IoT', 'INFRA E OBSERVABILIDADE'),
+        'toolbox_labels': ('SISTEMAS E BACKEND', 'EMBARCADOS E IoT',
+                           'FRONTEND E INTERFACES', 'INFRA E OBSERVABILIDADE'),
         'build': (
-            ('Deixar o estado claro',
-             ('Carregamento, dados desatualizados', 'e erros precisam ficar visíveis.')),
+            ('Tornar o estado observável',
+             ('Logs, métricas e sinais claros', 'para entender o comportamento.')),
             ('Testar quando as coisas falham',
              ('Verificar atrasos, novas tentativas', 'e perda de conexão.')),
             ('Facilitar a recuperação',
@@ -72,16 +72,16 @@ COPY = {
     'en': {
         'lang': 'en', 'file': 'README.en.md',
         'selector': '<a href="./README.md">Português</a> · <strong>English</strong>',
-        'eyebrow': 'FRONTEND / SOFTWARE ENGINEERING',
+        'eyebrow': 'SOFTWARE ENGINEERING / SYSTEMS',
         'headline': ('From the interface', 'to the hardware.'),
-        'intro': 'Interfaces, services and connected devices.',
-        'hero_scope': 'SYSTEMS / EMBEDDED / IoT',
-        'profile_label': 'ENGINEERING PROFILE',
-        'profile': ('I specialize in frontend engineering.',),
+        'intro': 'Services, interfaces and connected devices.',
+        'hero_scope': 'LINUX / EMBEDDED / IoT',
+        'profile_label': 'ENGINEERING CRITERIA',
+        'profile': ('State, response time and recovery.',),
         'about_heading': 'About',
-        'about': ('I work with web interfaces, backend services, Linux and embedded systems. '
-                  'I like investigating problems that cross those boundaries, especially when '
-                  'device communication or system response times are involved.'),
+        'about': ('I work on software and connected systems, including Linux services, automation, '
+                  'telemetry, embedded systems and web interfaces. I like understanding how the parts '
+                  'communicate and what happens when something fails.'),
         'headings': {
             'hero': 'ButterFlly. From the interface to the hardware.',
             'console': 'Engineering profile', 'fields': 'Fields I work in',
@@ -90,20 +90,20 @@ COPY = {
             'footer': 'ButterFlly. Discord: .butterflly',
         },
         'fields': (
-            ('01 / INTERFACES', 'Frontend engineering',
-             ('Interaction, application state', 'and responsive layouts.')),
-            ('02 / SOFTWARE', 'Services & automation',
-             ('APIs, background work', 'and Linux services.')),
-            ('03 / HARDWARE', 'Embedded systems',
+            ('01 / SOFTWARE', 'Systems & automation',
+             ('Linux services, APIs', 'and background work.')),
+            ('02 / DEVICES', 'Embedded systems',
              ('Firmware, sensors', 'and serial communication.')),
-            ('04 / CONNECTIVITY', 'IoT & realtime software',
+            ('03 / CONNECTIVITY', 'IoT & realtime software',
              ('Device integration, telemetry', 'and message exchange.')),
+            ('04 / INTERFACES', 'Web interfaces',
+             ('Frontend, application state', 'and interaction with the system.')),
         ),
-        'toolbox_labels': ('FRONTEND & INTERFACES', 'SYSTEMS & BACKEND',
-                           'EMBEDDED & IoT', 'INFRA & OBSERVABILITY'),
+        'toolbox_labels': ('SYSTEMS & BACKEND', 'EMBEDDED & IoT',
+                           'FRONTEND & INTERFACES', 'INFRA & OBSERVABILITY'),
         'build': (
-            ('Make state visible',
-             ('Show loading, stale data', 'and errors clearly.')),
+            ('Make state observable',
+             ('Use logs, metrics and clear signals', 'to understand system behavior.')),
             ('Test when things fail',
              ('Check timing, retries', 'and lost connections.')),
             ('Make recovery practical',
@@ -117,9 +117,9 @@ COPY = {
     },
 }
 TOOLS = (
-    ('TypeScript · React · Vite',),
     ('Go · C# · .NET · Node.js',),
     ('ESP32 · UART · I²C · OTA',),
+    ('TypeScript · React · Vite',),
     ('Linux · Docker · Prometheus', 'GitHub Actions · Tailscale'),
 )
 
@@ -162,52 +162,71 @@ class Artwork:
         self.text(x, y, value, 16, color, mono=True)
 
     def signature(self, x, y, scale=1):
-        """Swept, asymmetric laminae: an abstract wing built as routed signals.
+        """Two wing surfaces with nested traces from the same cubic geometry.
 
-        Coordinates belong to a 320 × 320 optical field. No nodes or labels
-        imply a live system. The two planes share a diagonal fold, not an axis
-        of symmetry; the silhouette is intentionally incomplete.
+        All curves share ordered control points. Trimming their ends leaves
+        space at the root and tip instead of piling strokes onto one point.
+        The upper traces enter through short, parallel circuit leads.
         """
+        def mix(a, b, t):
+            return tuple(u+(v-u)*t for u, v in zip(a, b))
+
+        def segment(points, start=.10, end=.90):
+            # Exact cubic subcurve: endpoint positions and endpoint tangents.
+            def point(t):
+                weights = ((1-t)**3, 3*(1-t)**2*t, 3*(1-t)*t*t, t**3)
+                return tuple(sum(w*p[j] for w, p in zip(weights, points))
+                             for j in (0, 1))
+
+            def tangent(t):
+                return tuple(3*sum(((1-t)**2, 2*(1-t)*t, t*t)[i]
+                                   *(points[i+1][j]-points[i][j])
+                                   for i in range(3)) for j in (0, 1))
+
+            first, last = point(start), point(end)
+            a, b = tangent(start), tangent(end)
+            span = (end-start)/3
+            return (first, tuple(first[j]+a[j]*span for j in (0, 1)),
+                    tuple(last[j]-b[j]*span for j in (0, 1)), last)
+
+        def curve(points, lead=False):
+            first, a, b, last = segment(points)
+            xy = lambda p: f'{p[0]:.2f} {p[1]:.2f}'
+            entry = (f'M{xy((first[0]-22, first[1]+12))}'
+                     f'L{xy((first[0]-10, first[1]+12))}L') if lead else 'M'
+            return f'{entry}{xy(first)}C{xy(a)} {xy(b)} {xy(last)}'
+
         self.parts.append(f'<g transform="translate({x} {y}) scale({scale})" '
                           'aria-hidden="true" stroke-linejoin="round" stroke-linecap="round">')
-        # Recessed construction plane and its sparse registration marks.
-        self.path('M42 262L276 28M84 302L302 84', 'border', 'opacity=".4"')
-        self.path('M26 70H38M32 64V76M290 274H302M296 268V280',
-                  'copper', 'opacity=".5"')
-        # A quiet surface beneath the engraving gives depth even without motion.
-        self.parts.append('<path d="M84 248L100 152Q172 58 292 28'
-                          'L266 128Q216 205 84 248Z" fill="url(#wing-upper)"/>')
-        self.parts.append('<path d="M98 262Q189 203 284 214L246 280'
-                          'Q180 322 124 304Z" fill="url(#wing-lower)"/>')
-        # Contours are routed, not a literal butterfly outline.
-        self.path('M84 248L100 152Q172 58 292 28L266 128Q216 205 84 248',
-                  'accent', 'stroke-width="1.3" opacity=".75"')
-        self.path('M98 262Q189 203 284 214L246 280Q180 322 124 304',
-                  'copper', 'stroke-width="1.3" opacity=".85"')
-        # Parallel traces fan out along the upper plane; uniform spacing at entry.
-        for i in range(7):
-            start_x, start_y = 48+i*10, 258+i*3
-            elbow_x, elbow_y = 80+i*9, 166+i*5
-            tip_x, tip_y = 278-i*10, 48+i*15
-            bend_x, bend_y = 177+i*7, 88+i*11
-            d = (f'M{start_x} {start_y}L{elbow_x} {elbow_y}'
-                 f'Q{bend_x} {bend_y} {tip_x} {tip_y}')
-            self.path(d, 'accent', f'opacity="{.28+i*.075:.3f}"')
-        for i in range(5):
-            self.path(f'M{108+i*7} {278+i*5}'
-                      f'Q{179+i*6} {223+i*9} {271-i*7} {232+i*10}',
-                      'copper', f'opacity="{.28+i*.1:.2f}"')
-        # The fold and its open terminals create a signature separate from UI cards.
-        self.path('M64 290L124 230L210 148L272 76', 'copper', 'stroke-width="1.5"')
-        self.path('M48 258L80 166Q177 88 278 48', 'accent',
-                  'class="signal" pathLength="100" stroke-width="2" '
-                  'stroke-dasharray="3 97" opacity=".85"')
-        self.path('M108 278Q179 223 271 232', 'copper',
-                  'class="signal signal-return" pathLength="100" '
-                  'stroke-width="2" stroke-dasharray="3 97" opacity=".8"')
-        for cx, cy in ((64, 290), (272, 76)):
-            self.parts.append(f'<circle cx="{cx}" cy="{cy}" r="3.5" '
-                              f'fill="{self.color("bg")}" stroke="{self.color("copper")}"/>')
+        self.path('M36 66H48M42 60V72M284 274H296M290 268V280',
+                  'copper', 'opacity=".35"')
+        # Internal traces follow each surface with ordered control points.
+        upper = 'M84 236C74 144 164 50 270 34C269 143 187 231 84 236Z'
+        lower = 'M94 248C153 209 236 198 278 216C230 282 153 303 108 280Z'
+        for d, gradient, color in ((upper, 'wing-upper', 'accent'),
+                                    (lower, 'wing-lower', 'copper')):
+            self.parts.append(f'<path d="{d}" fill="url(#{gradient})" '
+                              f'stroke="{self.color(color)}" stroke-width="1.3" '
+                              'stroke-opacity=".72"/>')
+        signals = []
+        for i in range(6):
+            t = (i+1)/7
+            d = curve(((84, 236), mix((74, 144), (187, 231), t),
+                       mix((164, 50), (269, 143), t), (270, 34)), lead=True)
+            self.path(d, 'accent', f'opacity="{.30+i*.06:.2f}"')
+            if i == 2:
+                signals.append((d, 'accent', 'signal'))
+        for i in range(4):
+            t = (i+1)/5
+            d = curve(((106, 258), mix((153, 219), (141, 322), t),
+                       mix((229, 209), (238, 294), t), (262, 225)))
+            self.path(d, 'copper', f'opacity="{.30+i*.08:.2f}"')
+            if i == 1:
+                signals.append((d, 'copper', 'signal signal-return'))
+        # Animation reuses the visible routes, so geometry cannot drift apart.
+        for d, color, css_class in signals:
+            self.path(d, color, f'class="{css_class}" pathLength="100" '
+                      'stroke-width="1.8" stroke-dasharray="2 98" opacity=".75"')
         self.parts.append('</g>')
 
     def finish(self, title, height, surface=False, hero=False):
@@ -266,7 +285,7 @@ def render(kind, theme, mobile=False, locale='pt-br'):
         if mobile:
             a.parts.append('<ellipse cx="310" cy="430" rx="190" ry="145" '
                            'fill="url(#hero-halo)"/>')
-            a.signature(150, 287, .8)
+            a.signature(150, 295, .8)
         else:
             a.parts.append('<ellipse cx="704" cy="180" rx="190" ry="174" '
                            'fill="url(#hero-halo)"/>')

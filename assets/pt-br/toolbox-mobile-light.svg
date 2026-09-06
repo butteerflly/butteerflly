@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="430" viewBox="0 0 580 430" xml:lang="pt-BR" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">Ferramentas</title>
-  <desc id="desc">FRONTEND E INTERFACES TypeScript · React · Vite SISTEMAS E BACKEND Go · C# · .NET · Node.js EMBARCADOS E IoT ESP32 · UART · I²C · OTA INFRA E OBSERVABILIDADE Linux · Docker · Prometheus GitHub Actions · Tailscale</desc>
-  <text x="32" y="28" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND E INTERFACES</text>
-  <text x="32" y="64" font-size="23" fill="#242D30" font-weight="500">TypeScript · React · Vite</text>
+  <desc id="desc">SISTEMAS E BACKEND Go · C# · .NET · Node.js EMBARCADOS E IoT ESP32 · UART · I²C · OTA FRONTEND E INTERFACES TypeScript · React · Vite INFRA E OBSERVABILIDADE Linux · Docker · Prometheus GitHub Actions · Tailscale</desc>
+  <text x="32" y="28" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">SISTEMAS E BACKEND</text>
+  <text x="32" y="64" font-size="23" fill="#242D30" font-weight="500">Go · C# · .NET · Node.js</text>
   <path d="M32 105H548" fill="none" stroke="#CDD8D6" />
-  <text x="32" y="132" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">SISTEMAS E BACKEND</text>
-  <text x="32" y="168" font-size="23" fill="#242D30" font-weight="500">Go · C# · .NET · Node.js</text>
+  <text x="32" y="132" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">EMBARCADOS E IoT</text>
+  <text x="32" y="168" font-size="23" fill="#242D30" font-weight="500">ESP32 · UART · I²C · OTA</text>
   <path d="M32 209H548" fill="none" stroke="#CDD8D6" />
-  <text x="32" y="236" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">EMBARCADOS E IoT</text>
-  <text x="32" y="272" font-size="23" fill="#242D30" font-weight="500">ESP32 · UART · I²C · OTA</text>
+  <text x="32" y="236" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND E INTERFACES</text>
+  <text x="32" y="272" font-size="23" fill="#242D30" font-weight="500">TypeScript · React · Vite</text>
   <path d="M32 313H548" fill="none" stroke="#CDD8D6" />
   <text x="32" y="340" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">INFRA E OBSERVABILIDADE</text>
   <text x="32" y="376" font-size="23" fill="#242D30" font-weight="500">Linux · Docker · Prometheus</text>

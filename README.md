@@ -8,7 +8,7 @@
   <source media="(max-width: 767px)" srcset="./assets/pt-br/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pt-br/hero-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/pt-br/hero-desktop-light.svg">
-  <img alt="FRONTEND / ENGENHARIA DE SOFTWARE BUTTERFLLY Da interface ao hardware. Interfaces, serviços e dispositivos conectados. SISTEMAS / EMBARCADOS / IoT" src="./assets/pt-br/hero-desktop-dark.svg" width="100%">
+  <img alt="ENGENHARIA DE SOFTWARE / SISTEMAS BUTTERFLLY Da interface ao hardware. Serviços, interfaces e dispositivos conectados. LINUX / EMBARCADOS / IoT" src="./assets/pt-br/hero-desktop-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -18,13 +18,13 @@
   <source media="(max-width: 767px)" srcset="./assets/pt-br/console-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pt-br/console-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/pt-br/console-desktop-light.svg">
-  <img alt="PERFIL TÉCNICO Minha especialidade é frontend." src="./assets/pt-br/console-desktop-dark.svg" width="100%">
+  <img alt="CRITÉRIO DE ENGENHARIA Estado, tempo de resposta e recuperação." src="./assets/pt-br/console-desktop-dark.svg" width="100%">
 </picture>
 </p>
 
 ## Sobre mim
 
-Trabalho com interfaces web, serviços de backend, Linux e sistemas embarcados. Gosto de investigar problemas que passam por essas áreas, principalmente quando envolvem comunicação com dispositivos ou o tempo de resposta do sistema.
+Trabalho com software e sistemas conectados. Isso inclui serviços Linux, automação, telemetria, sistemas embarcados e interfaces web. Gosto de entender como as partes se comunicam e o que acontece quando algo falha.
 
 ## Áreas de atuação
 
@@ -34,7 +34,7 @@ Trabalho com interfaces web, serviços de backend, Linux e sistemas embarcados. 
   <source media="(max-width: 767px)" srcset="./assets/pt-br/fields-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pt-br/fields-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/pt-br/fields-desktop-light.svg">
-  <img alt="01 / INTERFACES Engenharia de frontend Interação, estado da aplicação e layouts responsivos. 02 / SOFTWARE Serviços e automação APIs, tarefas em segundo plano e serviços Linux. 03 / HARDWARE Sistemas embarcados Firmware, sensores e comunicação serial. 04 / CONECTIVIDADE IoT e tempo real Integração de dispositivos, telemetria e troca de mensagens." src="./assets/pt-br/fields-desktop-dark.svg" width="100%">
+  <img alt="01 / SOFTWARE Sistemas e automação Serviços Linux, APIs e tarefas em segundo plano. 02 / DISPOSITIVOS Sistemas embarcados Firmware, sensores e comunicação serial. 03 / CONECTIVIDADE IoT e tempo real Integração de dispositivos, telemetria e troca de mensagens. 04 / INTERFACES Interfaces web Frontend, estado da aplicação e interação com o sistema." src="./assets/pt-br/fields-desktop-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -46,7 +46,7 @@ Trabalho com interfaces web, serviços de backend, Linux e sistemas embarcados. 
   <source media="(max-width: 767px)" srcset="./assets/pt-br/toolbox-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pt-br/toolbox-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/pt-br/toolbox-desktop-light.svg">
-  <img alt="FRONTEND E INTERFACES TypeScript · React · Vite SISTEMAS E BACKEND Go · C# · .NET · Node.js EMBARCADOS E IoT ESP32 · UART · I²C · OTA INFRA E OBSERVABILIDADE Linux · Docker · Prometheus GitHub Actions · Tailscale" src="./assets/pt-br/toolbox-desktop-dark.svg" width="100%">
+  <img alt="SISTEMAS E BACKEND Go · C# · .NET · Node.js EMBARCADOS E IoT ESP32 · UART · I²C · OTA FRONTEND E INTERFACES TypeScript · React · Vite INFRA E OBSERVABILIDADE Linux · Docker · Prometheus GitHub Actions · Tailscale" src="./assets/pt-br/toolbox-desktop-dark.svg" width="100%">
 </picture>
 </p>
 
@@ -58,7 +58,7 @@ Trabalho com interfaces web, serviços de backend, Linux e sistemas embarcados. 
   <source media="(max-width: 767px)" srcset="./assets/pt-br/build-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pt-br/build-desktop-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/pt-br/build-desktop-light.svg">
-  <img alt="01 Deixar o estado claro Carregamento, dados desatualizados e erros precisam ficar visíveis. 02 Testar quando as coisas falham Verificar atrasos, novas tentativas e perda de conexão. 03 Facilitar a recuperação Manter logs úteis e um caminho para reverter mudanças." src="./assets/pt-br/build-desktop-dark.svg" width="100%">
+  <img alt="01 Tornar o estado observável Logs, métricas e sinais claros para entender o comportamento. 02 Testar quando as coisas falham Verificar atrasos, novas tentativas e perda de conexão. 03 Facilitar a recuperação Manter logs úteis e um caminho para reverter mudanças." src="./assets/pt-br/build-desktop-dark.svg" width="100%">
 </picture>
 </p>
 

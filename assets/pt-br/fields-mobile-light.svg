@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="716" viewBox="0 0 580 716" xml:lang="pt-BR" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">Áreas de atuação</title>
-  <desc id="desc">01 / INTERFACES Engenharia de frontend Interação, estado da aplicação e layouts responsivos. 02 / SOFTWARE Serviços e automação APIs, tarefas em segundo plano e serviços Linux. 03 / HARDWARE Sistemas embarcados Firmware, sensores e comunicação serial. 04 / CONECTIVIDADE IoT e tempo real Integração de dispositivos, telemetria e troca de mensagens.</desc>
+  <desc id="desc">01 / SOFTWARE Sistemas e automação Serviços Linux, APIs e tarefas em segundo plano. 02 / DISPOSITIVOS Sistemas embarcados Firmware, sensores e comunicação serial. 03 / CONECTIVIDADE IoT e tempo real Integração de dispositivos, telemetria e troca de mensagens. 04 / INTERFACES Interfaces web Frontend, estado da aplicação e interação com o sistema.</desc>
   <rect x="0.5" y="8.5" width="579" height="159" rx="12" fill="#F7F8F6" stroke="#CDD8D6"/>
-  <text x="32" y="42" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01 / INTERFACES</text>
-  <text x="32" y="82" font-size="25" fill="#242D30" font-weight="600">Engenharia de frontend</text>
-  <text x="32" y="115" font-size="21" fill="#536367" font-weight="400">Interação, estado da aplicação</text>
-  <text x="32" y="142" font-size="21" fill="#536367" font-weight="400">e layouts responsivos.</text>
+  <text x="32" y="42" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01 / SOFTWARE</text>
+  <text x="32" y="82" font-size="25" fill="#242D30" font-weight="600">Sistemas e automação</text>
+  <text x="32" y="115" font-size="21" fill="#536367" font-weight="400">Serviços Linux, APIs</text>
+  <text x="32" y="142" font-size="21" fill="#536367" font-weight="400">e tarefas em segundo plano.</text>
   <rect x="0.5" y="188.5" width="579" height="159" rx="12" fill="#F7F8F6" stroke="#CDD8D6"/>
-  <text x="32" y="222" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02 / SOFTWARE</text>
-  <text x="32" y="262" font-size="25" fill="#242D30" font-weight="600">Serviços e automação</text>
-  <text x="32" y="295" font-size="21" fill="#536367" font-weight="400">APIs, tarefas em segundo plano</text>
-  <text x="32" y="322" font-size="21" fill="#536367" font-weight="400">e serviços Linux.</text>
+  <text x="32" y="222" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02 / DISPOSITIVOS</text>
+  <text x="32" y="262" font-size="25" fill="#242D30" font-weight="600">Sistemas embarcados</text>
+  <text x="32" y="295" font-size="21" fill="#536367" font-weight="400">Firmware, sensores</text>
+  <text x="32" y="322" font-size="21" fill="#536367" font-weight="400">e comunicação serial.</text>
   <rect x="0.5" y="368.5" width="579" height="159" rx="12" fill="#F7F8F6" stroke="#CDD8D6"/>
-  <text x="32" y="402" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">03 / HARDWARE</text>
-  <text x="32" y="442" font-size="25" fill="#242D30" font-weight="600">Sistemas embarcados</text>
-  <text x="32" y="475" font-size="21" fill="#536367" font-weight="400">Firmware, sensores</text>
-  <text x="32" y="502" font-size="21" fill="#536367" font-weight="400">e comunicação serial.</text>
+  <text x="32" y="402" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">03 / CONECTIVIDADE</text>
+  <text x="32" y="442" font-size="25" fill="#242D30" font-weight="600">IoT e tempo real</text>
+  <text x="32" y="475" font-size="21" fill="#536367" font-weight="400">Integração de dispositivos,</text>
+  <text x="32" y="502" font-size="21" fill="#536367" font-weight="400">telemetria e troca de mensagens.</text>
   <rect x="0.5" y="548.5" width="579" height="159" rx="12" fill="#F7F8F6" stroke="#CDD8D6"/>
-  <text x="32" y="582" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">04 / CONECTIVIDADE</text>
-  <text x="32" y="622" font-size="25" fill="#242D30" font-weight="600">IoT e tempo real</text>
-  <text x="32" y="655" font-size="21" fill="#536367" font-weight="400">Integração de dispositivos,</text>
-  <text x="32" y="682" font-size="21" fill="#536367" font-weight="400">telemetria e troca de mensagens.</text>
+  <text x="32" y="582" font-size="16" fill="#236E5C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">04 / INTERFACES</text>
+  <text x="32" y="622" font-size="25" fill="#242D30" font-weight="600">Interfaces web</text>
+  <text x="32" y="655" font-size="21" fill="#536367" font-weight="400">Frontend, estado da aplicação</text>
+  <text x="32" y="682" font-size="21" fill="#536367" font-weight="400">e interação com o sistema.</text>
 </svg>
