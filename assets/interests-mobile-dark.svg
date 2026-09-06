@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="156" viewBox="0 0 900 156" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="240" viewBox="0 0 580 240" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">Technical interests</title>
   <desc id="desc">Electronics Signals, circuits and measurement. Automotive technology Diagnostics and vehicle communication.</desc>
   <defs>
@@ -13,10 +13,9 @@
     @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
     @keyframes flow { to { stroke-dashoffset: -20; } }
   </style>
-  <rect x="0.5" y="0.5" width="899" height="155" rx="16" fill="#0B131C" stroke="#2A3C50"/>
+  <rect x="0.5" y="0.5" width="579" height="239" rx="16" fill="#0B131C" stroke="#2A3C50"/>
   <text x="32" y="65" font-size="23" fill="#F4F8FB" font-weight="600">Electronics</text>
   <text x="32" y="97" font-size="19" fill="#A7B4C4" font-weight="400">Signals, circuits and measurement.</text>
-  <text x="466" y="65" font-size="23" fill="#F4F8FB" font-weight="600">Automotive technology</text>
-  <text x="466" y="97" font-size="19" fill="#A7B4C4" font-weight="400">Diagnostics and vehicle communication.</text>
-  <path d="M442 42L442 114" fill="none" stroke="#2A3C50" />
+  <text x="32" y="153" font-size="23" fill="#F4F8FB" font-weight="600">Automotive technology</text>
+  <text x="32" y="185" font-size="19" fill="#A7B4C4" font-weight="400">Diagnostics and vehicle communication.</text>
 </svg>

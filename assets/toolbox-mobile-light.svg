@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="772" viewBox="0 0 580 772" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+  <title id="title">Toolbox, grouped by function</title>
+  <desc id="desc">SYSTEMS &amp; BACKEND Go · C# · .NET · Node.js Services, APIs and background work. FRONTEND &amp; INTERFACES TypeScript · React · Vite Web interfaces and practical tooling. EMBEDDED &amp; IoT ESP32 · UART · I²C · OTA Firmware and device communication. INFRA &amp; OPS Linux · Docker · Prometheus GitHub Actions · Tailscale</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7F9FC"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#007D6C"/><stop offset="1" stop-color="#536DDA"/></linearGradient>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .pulse { animation: pulse 5s ease-in-out infinite; }
+      .flow { animation: flow 12s linear infinite; }
+    }
+    @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+  </style>
+  <rect x="0.5" y="0.5" width="579" height="771" rx="16" fill="#F7F9FC" stroke="#CCD6E0"/>
+  <rect x="32" y="32" width="516" height="162" rx="12" fill="#FFFFFF" stroke="#CCD6E0" />
+  <text x="56" y="68" font-size="16" fill="#007D6C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">SYSTEMS &amp; BACKEND</text>
+  <text x="56" y="108" font-size="23" fill="#151B23" font-weight="600">Go · C# · .NET · Node.js</text>
+  <text x="56" y="143" font-size="19" fill="#526171" font-weight="400">Services, APIs and background work.</text>
+  <rect x="32" y="214" width="516" height="162" rx="12" fill="#FFFFFF" stroke="#CCD6E0" />
+  <text x="56" y="250" font-size="16" fill="#007D6C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND &amp; INTERFACES</text>
+  <text x="56" y="290" font-size="23" fill="#151B23" font-weight="600">TypeScript · React · Vite</text>
+  <text x="56" y="325" font-size="19" fill="#526171" font-weight="400">Web interfaces and practical tooling.</text>
+  <rect x="32" y="396" width="516" height="162" rx="12" fill="#FFFFFF" stroke="#CCD6E0" />
+  <text x="56" y="432" font-size="16" fill="#007D6C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">EMBEDDED &amp; IoT</text>
+  <text x="56" y="472" font-size="23" fill="#151B23" font-weight="600">ESP32 · UART · I²C · OTA</text>
+  <text x="56" y="507" font-size="19" fill="#526171" font-weight="400">Firmware and device communication.</text>
+  <rect x="32" y="578" width="516" height="162" rx="12" fill="#FFFFFF" stroke="#CCD6E0" />
+  <text x="56" y="614" font-size="16" fill="#007D6C" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">INFRA &amp; OPS</text>
+  <text x="56" y="654" font-size="23" fill="#151B23" font-weight="600">Linux · Docker · Prometheus</text>
+  <text x="56" y="689" font-size="19" fill="#526171" font-weight="400">GitHub Actions · Tailscale</text>
+</svg>

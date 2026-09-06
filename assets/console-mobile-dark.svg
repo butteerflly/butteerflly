@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="172" viewBox="0 0 900 172" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="260" viewBox="0 0 580 260" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">Engineering profile</title>
   <desc id="desc">ENGINEERING PROFILE Understand the boundary. Hardware, services and people. Make behavior explicit. Timing, state and failure modes.</desc>
   <defs>
@@ -13,11 +13,10 @@
     @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
     @keyframes flow { to { stroke-dashoffset: -20; } }
   </style>
-  <rect x="0.5" y="0.5" width="899" height="171" rx="16" fill="#0B131C" stroke="#2A3C50"/>
+  <rect x="0.5" y="0.5" width="579" height="259" rx="16" fill="#0B131C" stroke="#2A3C50"/>
   <text x="32" y="48" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">ENGINEERING PROFILE</text>
   <text x="32" y="94" font-size="24" fill="#F4F8FB" font-weight="600">Understand the boundary.</text>
-  <text x="32" y="128" font-size="20" fill="#A7B4C4" font-weight="400">Hardware, services and people.</text>
-  <text x="466" y="94" font-size="24" fill="#F4F8FB" font-weight="600">Make behavior explicit.</text>
-  <text x="466" y="128" font-size="20" fill="#A7B4C4" font-weight="400">Timing, state and failure modes.</text>
-  <path d="M442 76L442 136" fill="none" stroke="#2A3C50" />
+  <text x="32" y="124" font-size="20" fill="#A7B4C4" font-weight="400">Hardware, services and people.</text>
+  <text x="32" y="182" font-size="24" fill="#F4F8FB" font-weight="600">Make behavior explicit.</text>
+  <text x="32" y="212" font-size="20" fill="#A7B4C4" font-weight="400">Timing, state and failure modes.</text>
 </svg>

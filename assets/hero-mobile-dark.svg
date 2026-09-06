@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="536" viewBox="0 0 580 536" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">ButterFlly. From the interface to the hardware.</title>
-  <desc id="desc">FRONTEND / SOFTWARE / SYSTEMS BUTTERFLLY From the interface to the hardware. I like knowing why a system behaves the way it does. LINUX / OPS EMBEDDED / IoT ENGINEERING FOCUS Signals Useful evidence. State Explicit transitions. Feedback Clear responses.</desc>
+  <desc id="desc">FRONTEND / SOFTWARE / SYSTEMS BUTTERFLLY From the interface to the hardware. I like knowing why a system behaves the way it does. LINUX / OPS EMBEDDED / IoT ENGINEERING FOCUS Signals State Feedback</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B131C"/><stop offset="1" stop-color="#0C1621"/></linearGradient>
     <linearGradient id="accent"><stop stop-color="#39E2CA"/><stop offset="1" stop-color="#718BFF"/></linearGradient>
@@ -13,8 +13,8 @@
     @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
     @keyframes flow { to { stroke-dashoffset: -20; } }
   </style>
-  <rect x="0.5" y="0.5" width="899" height="359" rx="16" fill="url(#bg)" stroke="#2A3C50"/>
-<path d="M770 1V359M834 1V359" stroke="#162536" opacity=".45"/>
+  <rect x="0.5" y="0.5" width="579" height="535" rx="16" fill="url(#bg)" stroke="#2A3C50"/>
+<path d="M450 1V535M514 1V535" stroke="#162536" opacity=".45"/>
   <text x="32" y="53" font-size="16" fill="#A7B4C4" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND / SOFTWARE / SYSTEMS</text>
   <rect x="32" y="70" width="88" height="3" rx="2" fill="url(#accent)" />
   <text x="32" y="130" font-size="52" fill="#F4F8FB" font-weight="700">BUTTERFLLY</text>
@@ -26,17 +26,13 @@
   <text x="109.0" y="319" font-size="16" fill="#A7B4C4" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">LINUX / OPS</text>
   <rect x="198" y="298" width="190" height="30" rx="8" fill="#101B27" stroke="#2A3C50" />
   <text x="293.0" y="319" font-size="16" fill="#A7B4C4" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">EMBEDDED / IoT</text>
-  <rect x="570" y="32" width="298" height="296" rx="12" fill="#101B27" stroke="#2A3C50" />
-  <text x="594" y="66" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">ENGINEERING FOCUS</text>
-  <circle class="pulse" cx="599" cy="100" r="4" fill="#39E2CA"/>
-  <text x="616" y="107" font-size="23" fill="#F4F8FB" font-weight="600">Signals</text>
-  <text x="616" y="134" font-size="19" fill="#A7B4C4" font-weight="400">Useful evidence.</text>
-  <path d="M599 112L599 162" fill="none" stroke="#2A3C50" stroke-dasharray="3 7" class="flow"/>
-  <circle class="pulse" cx="599" cy="174" r="4" fill="#39E2CA"/>
-  <text x="616" y="181" font-size="23" fill="#F4F8FB" font-weight="600">State</text>
-  <text x="616" y="208" font-size="19" fill="#A7B4C4" font-weight="400">Explicit transitions.</text>
-  <path d="M599 186L599 236" fill="none" stroke="#2A3C50" stroke-dasharray="3 7" class="flow"/>
-  <circle class="pulse" cx="599" cy="248" r="4" fill="#39E2CA"/>
-  <text x="616" y="255" font-size="23" fill="#F4F8FB" font-weight="600">Feedback</text>
-  <text x="616" y="282" font-size="19" fill="#A7B4C4" font-weight="400">Clear responses.</text>
+  <rect x="32" y="367" width="516" height="137" rx="12" fill="#101B27" stroke="#2A3C50" />
+  <text x="56" y="401" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">ENGINEERING FOCUS</text>
+  <circle class="pulse" cx="61" cy="432" r="4" fill="#39E2CA"/>
+  <text x="56" y="471" font-size="22" fill="#F4F8FB" font-weight="600">Signals</text>
+  <circle class="pulse" cx="228" cy="432" r="4" fill="#39E2CA"/>
+  <text x="223" y="471" font-size="22" fill="#F4F8FB" font-weight="600">State</text>
+  <circle class="pulse" cx="395" cy="432" r="4" fill="#39E2CA"/>
+  <text x="390" y="471" font-size="22" fill="#F4F8FB" font-weight="600">Feedback</text>
+  <path d="M66 432H380" fill="none" stroke="#2A3C50" stroke-dasharray="3 7" class="flow"/>
 </svg>
