@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Home IoT project card</title><desc id="desc">Private control plane for home and workshop automation.</desc>
+<rect width="1200" height="360" rx="20" fill="#FFFFFF"/>
+<rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#D0D7DE"/>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+  <text x="52" y="55" fill="#57606A" font-size="12" letter-spacing="2">PROJECT // ACTIVE</text>
+  <circle cx="227" cy="51" r="5" fill="#1A7F37"/>
+  <text x="52" y="113" fill="#161B22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="760" letter-spacing="-1.3">HOME IOT</text>
+  <text x="53" y="145" fill="#008C7A" font-size="14" letter-spacing="1.2">PRIVATE CONTROL PLANE · HOME + WORKSHOP</text>
+  <text x="53" y="190" fill="#161B22" opacity=".9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">A distributed automation system spanning software services,</text>
+  <text x="53" y="214" fill="#161B22" opacity=".9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">remote nodes, embedded devices, telemetry and recovery paths.</text>
+
+  <g transform="translate(52 255)">
+    <rect width="120" height="34" rx="8" fill="#F6F8FA" stroke="#D0D7DE"/><text x="60" y="22" text-anchor="middle" fill="#57606A" font-size="11">REALTIME</text>
+    <g transform="translate(130)"><rect width="120" height="34" rx="8" fill="#F6F8FA" stroke="#D0D7DE"/><text x="60" y="22" text-anchor="middle" fill="#57606A" font-size="11">TELEMETRY</text></g>
+    <g transform="translate(260)"><rect width="120" height="34" rx="8" fill="#F6F8FA" stroke="#D0D7DE"/><text x="60" y="22" text-anchor="middle" fill="#57606A" font-size="11">OTA</text></g>
+    <g transform="translate(390)"><rect width="120" height="34" rx="8" fill="#F6F8FA" stroke="#D0D7DE"/><text x="60" y="22" text-anchor="middle" fill="#57606A" font-size="11">MONITORING</text></g>
+  </g>
+  <text x="53" y="326" fill="#57606A" font-size="11" letter-spacing="1.2">ESP32 · LINUX · SERVICES · AUTOMATION · OBSERVABILITY</text>
+
+  <!-- architecture -->
+  <g transform="translate(620 55)">
+    <path d="M102 54 H206 M344 54 H448 M275 91 V157 M118 196 H214 M336 196 H432" stroke="#C7D1DB" stroke-width="2"/>
+    <path d="M275 229 V244" stroke="#C7D1DB" stroke-width="2"/>
+
+    <g transform="translate(0 30)"><rect width="118" height="48" rx="11" fill="#F6F8FA" stroke="#D0D7DE"/><circle cx="18" cy="24" r="4" fill="#4E64C8"/><text x="31" y="29" fill="#161B22" font-size="12">OPERATOR</text></g>
+    <g transform="translate(206 18)"><rect width="138" height="72" rx="13" fill="#F6F8FA" stroke="#008C7A" stroke-width="1.4"/><text x="69" y="29" text-anchor="middle" fill="#008C7A" font-size="10" letter-spacing="1.2">CONTROL</text><text x="69" y="50" text-anchor="middle" fill="#161B22" font-size="14">SERVICES</text></g>
+    <g transform="translate(448 30)"><rect width="118" height="48" rx="11" fill="#F6F8FA" stroke="#D0D7DE"/><circle cx="18" cy="24" r="4" fill="#1A7F37"/><text x="31" y="29" fill="#161B22" font-size="12">MONITOR</text></g>
+
+    <g transform="translate(56 172)"><rect width="122" height="48" rx="11" fill="#F6F8FA" stroke="#D0D7DE"/><circle cx="18" cy="24" r="4" fill="#008C7A"/><text x="31" y="29" fill="#161B22" font-size="12">LINUX</text></g>
+    <g transform="translate(214 160)"><rect width="122" height="72" rx="13" fill="#F6F8FA" stroke="#D0D7DE"/><text x="61" y="29" text-anchor="middle" fill="#57606A" font-size="10">REMOTE</text><text x="61" y="50" text-anchor="middle" fill="#161B22" font-size="13">NODES</text></g>
+    <g transform="translate(432 172)"><rect width="122" height="48" rx="11" fill="#F6F8FA" stroke="#D0D7DE"/><circle cx="18" cy="24" r="4" fill="#4E64C8"/><text x="31" y="29" fill="#161B22" font-size="12">PC AGENT</text></g>
+
+    <g transform="translate(210 244)"><rect width="130" height="44" rx="11" fill="#F6F8FA" stroke="#D0D7DE"/><circle cx="18" cy="22" r="4" fill="#008C7A"/><text x="31" y="27" fill="#161B22" font-size="12">ESP32 / IoT</text></g>
+  </g>
+</g>
+</svg>
