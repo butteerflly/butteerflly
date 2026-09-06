@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">ButterFlly profile header</title>
+  <desc id="desc">Software, systems, embedded, IoT and automation profile header.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#E5EAEE" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#008C7A"/>
+      <stop offset="1" stop-color="#4E64C8"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="#F6F8FA"/>
+  <rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#D0D7DE"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)" opacity="0.72"/>
+  <circle cx="943" cy="160" r="112" fill="#D9F5F1" opacity="0.52" filter="url(#glow)"/>
+  <text x="60" y="56" fill="#57606A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="2.4">BUTTERFLLY / SYSTEM PROFILE</text>
+  <rect x="60" y="75" width="110" height="3" rx="2" fill="url(#line)"/>
+  <text x="58" y="138" fill="#161B22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="770" letter-spacing="-2.8">BUTTERFLLY</text>
+  <text x="60" y="178" fill="#57606A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="1.5">SOFTWARE  ·  SYSTEMS  ·  EMBEDDED  ·  IOT  ·  AUTOMATION</text>
+  <text x="60" y="219" fill="#161B22" opacity="0.9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">I build software that connects services, infrastructure, devices and real world systems.</text>
+  <g transform="translate(60 247)">
+    <rect width="150" height="32" rx="16" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <circle cx="18" cy="16" r="5" fill="#008C7A"/>
+    <text x="33" y="21" fill="#57606A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="0.9">PRIVATE WORKFLOW</text>
+  </g>
+  <text x="227" y="268" fill="#161B22" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12.5">embedded systems / linux / backend / telemetry / interfaces</text>
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+    <path d="M804 95 L900 135 M1068 95 L972 135 M804 225 L900 185 M1068 225 L972 185" stroke="#C6D0DA" stroke-width="2" fill="none"/>
+    <path d="M936 118 V95 M936 202 V225" stroke="#C6D0DA" stroke-width="2"/>
+    <g transform="translate(888 132)">
+      <rect width="96" height="56" rx="14" fill="#FFFFFF" stroke="#008C7A" stroke-width="1.5"/>
+      <text x="48" y="24" text-anchor="middle" fill="#008C7A" font-size="10" letter-spacing="1.4">CONTROL</text>
+      <text x="48" y="40" text-anchor="middle" fill="#161B22" font-size="14" font-weight="700">CORE</text>
+    </g>
+    <g transform="translate(732 70)">
+      <rect width="156" height="50" rx="13" fill="#F8FAFB" stroke="#D0D7DE"/>
+      <circle cx="20" cy="25" r="5" fill="#4E64C8"/>
+      <text x="36" y="30" fill="#161B22" font-size="13">WEB / UI</text>
+      <text x="36" y="44" fill="#57606A" font-size="10">operator views</text>
+    </g>
+    <g transform="translate(984 70)">
+      <rect width="156" height="50" rx="13" fill="#F8FAFB" stroke="#D0D7DE"/>
+      <circle cx="20" cy="25" r="5" fill="#008C7A"/>
+      <text x="36" y="30" fill="#161B22" font-size="13">LINUX NODES</text>
+      <text x="36" y="44" fill="#57606A" font-size="10">services and ops</text>
+    </g>
+    <g transform="translate(732 202)">
+      <rect width="156" height="50" rx="13" fill="#F8FAFB" stroke="#D0D7DE"/>
+      <circle cx="20" cy="25" r="5" fill="#008C7A"/>
+      <text x="36" y="30" fill="#161B22" font-size="13">EMBEDDED</text>
+      <text x="36" y="44" fill="#57606A" font-size="10">sensors and control</text>
+    </g>
+    <g transform="translate(984 202)">
+      <rect width="156" height="50" rx="13" fill="#F8FAFB" stroke="#D0D7DE"/>
+      <circle cx="20" cy="25" r="5" fill="#4E64C8"/>
+      <text x="36" y="30" fill="#161B22" font-size="13">REALTIME</text>
+      <text x="36" y="44" fill="#57606A" font-size="10">telemetry and state</text>
+    </g>
+    <text x="936" y="49" text-anchor="middle" fill="#57606A" font-size="10" letter-spacing="1.2">OBSERVABLE / RECOVERABLE / BUILT TO LAST</text>
+  </g>
+</svg>
