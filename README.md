@@ -1,26 +1,15 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-v3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-v3-light.svg">
-  <img alt="ButterFlly profile header" src="./assets/profile-header-v3-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-v5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-v5-light.svg">
+  <img alt="ButterFlly profile hero" src="./assets/hero-v5-dark.svg" width="100%">
 </picture>
 
 <br>
 
-<div align="center">
-  <code>software systems</code>
-  <code>embedded</code>
-  <code>iot</code>
-  <code>linux</code>
-  <code>realtime</code>
-  <code>automation</code>
-</div>
-
-<br>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/operator-console-v3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/operator-console-v3-light.svg">
-  <img alt="Engineering console" src="./assets/operator-console-v3-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/console-v5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/console-v5-light.svg">
+  <img alt="Engineering profile overview" src="./assets/console-v5-dark.svg" width="100%">
 </picture>
 
 ## About
@@ -38,44 +27,40 @@ I keep active project specifics private. This profile is about the kind of work 
 ## Fields I work in
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/fields-v3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/fields-v3-light.svg">
-  <img alt="Fields of work" src="./assets/fields-v3-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/fields-v5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/fields-v5-light.svg">
+  <img alt="Fields of work" src="./assets/fields-v5-dark.svg" width="100%">
 </picture>
-
-I usually end up in work where software has to talk to something real, whether that means a service, a machine, a node on a network or a device sitting on a bench.
 
 <br>
 
 ## Toolbox
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-v3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/toolbox-v3-light.svg">
-  <img alt="Engineering toolbox" src="./assets/toolbox-v3-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-v5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/toolbox-v5-light.svg">
+  <img alt="Engineering toolbox" src="./assets/toolbox-v5-dark.svg" width="100%">
 </picture>
 
-I have also worked with **PHP, Lua, Python, SQL and MySQL** when they fit the job. The stack changes with the problem.
+<sub>I have also worked with PHP, Lua, Python, SQL and MySQL when they fit the job.</sub>
 
-<br>
+<br><br>
 
 ## How I like to build
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/build-map-v3-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/build-map-v3-light.svg">
-  <img alt="Systems map" src="./assets/build-map-v3-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/build-v5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/build-v5-light.svg">
+  <img alt="How I like to build" src="./assets/build-v5-dark.svg" width="100%">
 </picture>
-
-I like clear responsibilities, useful telemetry, simple control paths and recovery that has been thought through before something goes wrong.
-
-If a system cannot explain its own state, I usually keep pushing until it can.
 
 <br>
 
-## Things I keep digging into
-
-`Distributed systems` · `Embedded systems` · `IoT` · `Observability` · `Electronics` · `Networking` · `Realtime software` · `Automation` · `Automotive technology` · `Human machine interfaces`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/interests-v5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/interests-v5-light.svg">
+  <img alt="Technical interests" src="./assets/interests-v5-dark.svg" width="100%">
+</picture>
 
 <br>
 
@@ -90,7 +75,7 @@ If a system cannot explain its own state, I usually keep pushing until it can.
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
-  <img alt="ButterFlly profile footer" src="./assets/footer-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-v5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-v5-light.svg">
+  <img alt="ButterFlly profile footer" src="./assets/footer-v5-dark.svg" width="100%">
 </picture>
