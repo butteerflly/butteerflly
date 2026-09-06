@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" xml:lang="en" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+  <title id="title">How I like to build</title>
+  <desc id="desc">01 Make state visible Show loading, stale data and errors clearly. 02 Test when things fail Check timing, retries and lost connections. 03 Make recovery practical Leave useful logs and a way to roll back changes.</desc>
+  <text x="32" y="46" font-size="16" fill="#CCA17F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01</text>
+  <text x="78" y="46" font-size="23" fill="#F2F1ED" font-weight="600">Make state visible</text>
+  <text x="78" y="78" font-size="19" fill="#ACB7B8" font-weight="400">Show loading, stale data and errors clearly.</text>
+  <path d="M78 92H868" fill="none" stroke="#304044" />
+  <text x="32" y="132" font-size="16" fill="#CCA17F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02</text>
+  <text x="78" y="132" font-size="23" fill="#F2F1ED" font-weight="600">Test when things fail</text>
+  <text x="78" y="164" font-size="19" fill="#ACB7B8" font-weight="400">Check timing, retries and lost connections.</text>
+  <path d="M78 178H868" fill="none" stroke="#304044" />
+  <text x="32" y="218" font-size="16" fill="#CCA17F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">03</text>
+  <text x="78" y="218" font-size="23" fill="#F2F1ED" font-weight="600">Make recovery practical</text>
+  <text x="78" y="250" font-size="19" fill="#ACB7B8" font-weight="400">Leave useful logs and a way to roll back changes.</text>
+</svg>

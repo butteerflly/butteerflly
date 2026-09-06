@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="390" viewBox="0 0 580 390" xml:lang="pt-BR" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+  <title id="title">ButterFlly. Da interface ao hardware.</title>
+  <desc id="desc">FRONTEND / ENGENHARIA DE SOFTWARE BUTTERFLLY Da interface ao hardware. Interfaces, serviços e dispositivos conectados. INTERFACE LÓGICA DISPOSITIVO</desc>
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111719"/><stop offset="1" stop-color="#151B1D"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .signal { animation: signal-travel 12s linear infinite; }
+      .node-pulse { animation: node-breathe 6s ease-in-out infinite; }
+    }
+    @keyframes signal-travel { to { stroke-dashoffset: -64; } }
+    @keyframes node-breathe {
+      0%, 100% { stroke-opacity: .65; }
+      50% { stroke-opacity: 1; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="579" height="389" rx="16" fill="url(#hero-bg)" stroke="#304044"/>
+  <text x="32" y="54" font-size="16" fill="#ACB7B8" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">FRONTEND / ENGENHARIA DE SOFTWARE</text>
+  <rect x="32" y="74" width="86" height="3" rx="1.5" fill="#CCA17F"/>
+  <text x="32" y="132" font-size="52" fill="#F2F1ED" font-weight="700">BUTTERFLLY</text>
+  <text x="32" y="179" font-size="29" fill="#F2F1ED" font-weight="600">Da interface</text>
+  <text x="32" y="215" font-size="29" fill="#F2F1ED" font-weight="600">ao hardware.</text>
+  <text x="32" y="263" font-size="22" fill="#ACB7B8" font-weight="400">Interfaces, serviços e dispositivos conectados.</text>
+  <path d="M180 331H216M364 331H400" fill="none" stroke="#304044" />
+  <path d="M180 331H216M364 331H400" fill="none" stroke="#80C9B8" class="signal" stroke-dasharray="3 13"/>
+  <rect x="32" y="304" width="148" height="54" rx="10" fill="#172023" stroke="#304044"/>
+  <text x="106" y="337" font-size="18" fill="#F2F1ED" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">INTERFACE</text>
+  <rect x="216" y="304" width="148" height="54" rx="10" fill="#172023" stroke="#304044"/>
+  <text x="290" y="337" font-size="18" fill="#F2F1ED" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">LÓGICA</text>
+  <rect x="400" y="304" width="148" height="54" rx="10" fill="#172023" stroke="#304044"/>
+  <text x="474" y="337" font-size="18" fill="#F2F1ED" font-weight="400" font-family="Consolas,'Liberation Mono',monospace" text-anchor="middle">DISPOSITIVO</text>
+</svg>
