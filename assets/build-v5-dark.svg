@@ -1,36 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="416" viewBox="0 0 900 416" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="298" viewBox="0 0 900 298" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">How I like to build</title>
-  <desc id="desc">01 / DEFINE Start with the boundaries Define contracts and ownership. Make state transitions explicit. 02 / OBSERVE Leave useful evidence Log the context that explains a failure. Measure behavior under real use. 03 / VERIFY Test the awkward cases Check timing, retries and lost connections. Make failures reproducible. 04 / RECOVER Keep a way back Plan rollback before deployment. Exercise recovery before it is needed.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B131C"/><stop offset="1" stop-color="#0C1621"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#39E2CA"/><stop offset="1" stop-color="#718BFF"/></linearGradient>
-  </defs>
-  <style>
-    @media (prefers-reduced-motion: no-preference) {
-      .pulse { animation: pulse 5s ease-in-out infinite; }
-      .flow { animation: flow 12s linear infinite; }
-    }
-    @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
-    @keyframes flow { to { stroke-dashoffset: -20; } }
-  </style>
-  <rect x="0.5" y="0.5" width="899" height="415" rx="16" fill="#0B131C" stroke="#2A3C50"/>
-  <text x="32" y="56" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01 / DEFINE</text>
-  <text x="32" y="90" font-size="23" fill="#F4F8FB" font-weight="600">Start with the boundaries</text>
-  <text x="466" y="59" font-size="19" fill="#A7B4C4" font-weight="400">Define contracts and ownership.</text>
-  <text x="466" y="87" font-size="19" fill="#A7B4C4" font-weight="400">Make state transitions explicit.</text>
-  <path d="M32 108H868" fill="none" stroke="#2A3C50" />
-  <text x="32" y="144" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02 / OBSERVE</text>
-  <text x="32" y="178" font-size="23" fill="#F4F8FB" font-weight="600">Leave useful evidence</text>
-  <text x="466" y="147" font-size="19" fill="#A7B4C4" font-weight="400">Log the context that explains a failure.</text>
-  <text x="466" y="175" font-size="19" fill="#A7B4C4" font-weight="400">Measure behavior under real use.</text>
-  <path d="M32 196H868" fill="none" stroke="#2A3C50" />
-  <text x="32" y="232" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">03 / VERIFY</text>
-  <text x="32" y="266" font-size="23" fill="#F4F8FB" font-weight="600">Test the awkward cases</text>
-  <text x="466" y="235" font-size="19" fill="#A7B4C4" font-weight="400">Check timing, retries and lost connections.</text>
-  <text x="466" y="263" font-size="19" fill="#A7B4C4" font-weight="400">Make failures reproducible.</text>
-  <path d="M32 284H868" fill="none" stroke="#2A3C50" />
-  <text x="32" y="320" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">04 / RECOVER</text>
-  <text x="32" y="354" font-size="23" fill="#F4F8FB" font-weight="600">Keep a way back</text>
-  <text x="466" y="323" font-size="19" fill="#A7B4C4" font-weight="400">Plan rollback before deployment.</text>
-  <text x="466" y="351" font-size="19" fill="#A7B4C4" font-weight="400">Exercise recovery before it is needed.</text>
+  <desc id="desc">01 Make state visible Show loading, stale data and errors clearly. 02 Test beyond the happy path Check timing, retries and lost connections. 03 Keep changes recoverable Leave useful logs and a practical rollback path.</desc>
+  <text x="32" y="58" font-size="16" fill="#CCA17F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">01</text>
+  <text x="78" y="58" font-size="23" fill="#F2F1ED" font-weight="600">Make state visible</text>
+  <text x="78" y="90" font-size="19" fill="#ACB7B8" font-weight="400">Show loading, stale data and errors clearly.</text>
+  <path d="M78 104H868" fill="none" stroke="#304044" />
+  <text x="32" y="144" font-size="16" fill="#CCA17F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">02</text>
+  <text x="78" y="144" font-size="23" fill="#F2F1ED" font-weight="600">Test beyond the happy path</text>
+  <text x="78" y="176" font-size="19" fill="#ACB7B8" font-weight="400">Check timing, retries and lost connections.</text>
+  <path d="M78 190H868" fill="none" stroke="#304044" />
+  <text x="32" y="230" font-size="16" fill="#CCA17F" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">03</text>
+  <text x="78" y="230" font-size="23" fill="#F2F1ED" font-weight="600">Keep changes recoverable</text>
+  <text x="78" y="262" font-size="19" fill="#ACB7B8" font-weight="400">Leave useful logs and a practical rollback path.</text>
 </svg>

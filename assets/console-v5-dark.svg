@@ -1,23 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="172" viewBox="0 0 900 172" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="88" viewBox="0 0 900 88" role="img" aria-labelledby="title desc" fill="none" font-family="Arial, Helvetica, sans-serif" stroke-width="1">
   <title id="title">Engineering profile</title>
-  <desc id="desc">ENGINEERING PROFILE Understand the boundary. Hardware, services and people. Make behavior explicit. Timing, state and failure modes.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B131C"/><stop offset="1" stop-color="#0C1621"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#39E2CA"/><stop offset="1" stop-color="#718BFF"/></linearGradient>
-  </defs>
-  <style>
-    @media (prefers-reduced-motion: no-preference) {
-      .pulse { animation: pulse 5s ease-in-out infinite; }
-      .flow { animation: flow 12s linear infinite; }
-    }
-    @keyframes pulse { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
-    @keyframes flow { to { stroke-dashoffset: -20; } }
-  </style>
-  <rect x="0.5" y="0.5" width="899" height="171" rx="16" fill="#0B131C" stroke="#2A3C50"/>
-  <text x="32" y="48" font-size="16" fill="#39E2CA" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">ENGINEERING PROFILE</text>
-  <text x="32" y="94" font-size="24" fill="#F4F8FB" font-weight="600">Understand the boundary.</text>
-  <text x="32" y="128" font-size="20" fill="#A7B4C4" font-weight="400">Hardware, services and people.</text>
-  <text x="466" y="94" font-size="24" fill="#F4F8FB" font-weight="600">Make behavior explicit.</text>
-  <text x="466" y="128" font-size="20" fill="#A7B4C4" font-weight="400">Timing, state and failure modes.</text>
-  <path d="M442 76L442 136" fill="none" stroke="#2A3C50" />
+  <desc id="desc">ENGINEERING PROFILE Frontend engineering, with a view of the whole system.</desc>
+  <text x="32" y="28" font-size="16" fill="#ACB7B8" font-weight="400" font-family="Consolas,'Liberation Mono',monospace">ENGINEERING PROFILE</text>
+  <text x="32" y="64" font-size="23" fill="#F2F1ED" font-weight="600">Frontend engineering, with a view of the whole system.</text>
 </svg>
