@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="282" viewBox="0 0 1200 282" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering console</title>
+  <desc id="desc">A privacy friendly console summarizing work areas, style and approach.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1"><stop stop-color="#008C7A"/><stop offset="1" stop-color="#4E64C8"/></linearGradient>
+    <style>.pulse{animation:pulse 2.8s ease-in-out infinite alternate}@keyframes pulse{from{opacity:.45}to{opacity:1}}</style>
+  </defs>
+  <rect width="1200" height="282" rx="20" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="1198" height="280" rx="19" fill="none" stroke="#D0D7DE"/>
+  <g transform="translate(34 28)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+    <text x="0" y="0" fill="#57606A" font-size="12" letter-spacing="2" dominant-baseline="hanging">ENGINEERING CONSOLE</text>
+    <rect x="0" y="24" width="140" height="3" rx="2" fill="url(#bar)"/>
+    <g transform="translate(0 52)">
+      <rect width="548" height="164" rx="16" fill="#F6F8FA" stroke="#D0D7DE"/>
+      <text x="22" y="30" fill="#008C7A" font-size="11" letter-spacing="1.4">WORK AREAS</text>
+      <text x="22" y="58" fill="#161B22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="720">What I work with</text>
+      <g transform="translate(22 82)">
+        <rect width="148" height="30" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/><text x="74" y="20" text-anchor="middle" fill="#57606A" font-size="11">embedded systems</text>
+        <g transform="translate(162 0)"><rect width="104" height="30" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/><text x="52" y="20" text-anchor="middle" fill="#57606A" font-size="11">linux</text></g>
+        <g transform="translate(278 0)"><rect width="112" height="30" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/><text x="56" y="20" text-anchor="middle" fill="#57606A" font-size="11">backend</text></g>
+        <g transform="translate(402 0)"><rect width="120" height="30" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/><text x="60" y="20" text-anchor="middle" fill="#57606A" font-size="11">realtime</text></g>
+        <g transform="translate(0 42)"><rect width="126" height="30" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/><text x="63" y="20" text-anchor="middle" fill="#57606A" font-size="11">telemetry</text></g>
+        <g transform="translate(138 42)"><rect width="126" height="30" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/><text x="63" y="20" text-anchor="middle" fill="#57606A" font-size="11">automation</text></g>
+        <g transform="translate(276 42)"><rect width="118" height="30" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/><text x="59" y="20" text-anchor="middle" fill="#57606A" font-size="11">interfaces</text></g>
+        <g transform="translate(406 42)"><rect width="116" height="30" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/><text x="58" y="20" text-anchor="middle" fill="#57606A" font-size="11">networks</text></g>
+      </g>
+    </g>
+    <g transform="translate(572 52)">
+      <rect width="270" height="164" rx="16" fill="#F6F8FA" stroke="#D0D7DE"/>
+      <text x="22" y="30" fill="#008C7A" font-size="11" letter-spacing="1.4">WORK STYLE</text>
+      <text x="22" y="58" fill="#161B22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="720">How I think</text>
+      <text x="22" y="95" fill="#161B22" opacity="0.92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Clear state</text>
+      <text x="22" y="118" fill="#161B22" opacity="0.92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Useful telemetry</text>
+      <text x="22" y="141" fill="#161B22" opacity="0.92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Recovery paths</text>
+      <text x="22" y="164" fill="#161B22" opacity="0.92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Boundaries that make sense</text>
+    </g>
+    <g transform="translate(866 52)">
+      <rect width="300" height="164" rx="16" fill="#F6F8FA" stroke="#D0D7DE"/>
+      <text x="22" y="30" fill="#008C7A" font-size="11" letter-spacing="1.4">PROFILE NOTES</text>
+      <text x="22" y="58" fill="#161B22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="720">Privacy first</text>
+      <text x="22" y="93" fill="#161B22" opacity="0.92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">I prefer to keep active project details private.</text>
+      <text x="22" y="117" fill="#161B22" opacity="0.92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">This profile shows my fields of work, not a live project log.</text>
+      <g transform="translate(22 133)">
+        <rect width="126" height="10" rx="5" fill="#E8EDF2"/>
+        <rect class="pulse" width="92" height="10" rx="5" fill="url(#bar)"/>
+      </g>
+    </g>
+  </g>
+</svg>
