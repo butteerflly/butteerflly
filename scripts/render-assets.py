@@ -162,52 +162,71 @@ class Artwork:
         self.text(x, y, value, 16, color, mono=True)
 
     def signature(self, x, y, scale=1):
-        """Swept, asymmetric laminae: an abstract wing built as routed signals.
+        """Two wing surfaces with nested traces from the same cubic geometry.
 
-        Coordinates belong to a 320 × 320 optical field. No nodes or labels
-        imply a live system. The two planes share a diagonal fold, not an axis
-        of symmetry; the silhouette is intentionally incomplete.
+        All curves share ordered control points. Trimming their ends leaves
+        space at the root and tip instead of piling strokes onto one point.
+        The upper traces enter through short, parallel circuit leads.
         """
+        def mix(a, b, t):
+            return tuple(u+(v-u)*t for u, v in zip(a, b))
+
+        def segment(points, start=.10, end=.90):
+            # Exact cubic subcurve: endpoint positions and endpoint tangents.
+            def point(t):
+                weights = ((1-t)**3, 3*(1-t)**2*t, 3*(1-t)*t*t, t**3)
+                return tuple(sum(w*p[j] for w, p in zip(weights, points))
+                             for j in (0, 1))
+
+            def tangent(t):
+                return tuple(3*sum(((1-t)**2, 2*(1-t)*t, t*t)[i]
+                                   *(points[i+1][j]-points[i][j])
+                                   for i in range(3)) for j in (0, 1))
+
+            first, last = point(start), point(end)
+            a, b = tangent(start), tangent(end)
+            span = (end-start)/3
+            return (first, tuple(first[j]+a[j]*span for j in (0, 1)),
+                    tuple(last[j]-b[j]*span for j in (0, 1)), last)
+
+        def curve(points, lead=False):
+            first, a, b, last = segment(points)
+            xy = lambda p: f'{p[0]:.2f} {p[1]:.2f}'
+            entry = (f'M{xy((first[0]-22, first[1]+12))}'
+                     f'L{xy((first[0]-10, first[1]+12))}L') if lead else 'M'
+            return f'{entry}{xy(first)}C{xy(a)} {xy(b)} {xy(last)}'
+
         self.parts.append(f'<g transform="translate({x} {y}) scale({scale})" '
                           'aria-hidden="true" stroke-linejoin="round" stroke-linecap="round">')
-        # Recessed construction plane and its sparse registration marks.
-        self.path('M42 262L276 28M84 302L302 84', 'border', 'opacity=".4"')
-        self.path('M26 70H38M32 64V76M290 274H302M296 268V280',
-                  'copper', 'opacity=".5"')
-        # A quiet surface beneath the engraving gives depth even without motion.
-        self.parts.append('<path d="M84 248L100 152Q172 58 292 28'
-                          'L266 128Q216 205 84 248Z" fill="url(#wing-upper)"/>')
-        self.parts.append('<path d="M98 262Q189 203 284 214L246 280'
-                          'Q180 322 124 304Z" fill="url(#wing-lower)"/>')
-        # Contours are routed, not a literal butterfly outline.
-        self.path('M84 248L100 152Q172 58 292 28L266 128Q216 205 84 248',
-                  'accent', 'stroke-width="1.3" opacity=".75"')
-        self.path('M98 262Q189 203 284 214L246 280Q180 322 124 304',
-                  'copper', 'stroke-width="1.3" opacity=".85"')
-        # Parallel traces fan out along the upper plane; uniform spacing at entry.
-        for i in range(7):
-            start_x, start_y = 48+i*10, 258+i*3
-            elbow_x, elbow_y = 80+i*9, 166+i*5
-            tip_x, tip_y = 278-i*10, 48+i*15
-            bend_x, bend_y = 177+i*7, 88+i*11
-            d = (f'M{start_x} {start_y}L{elbow_x} {elbow_y}'
-                 f'Q{bend_x} {bend_y} {tip_x} {tip_y}')
-            self.path(d, 'accent', f'opacity="{.28+i*.075:.3f}"')
-        for i in range(5):
-            self.path(f'M{108+i*7} {278+i*5}'
-                      f'Q{179+i*6} {223+i*9} {271-i*7} {232+i*10}',
-                      'copper', f'opacity="{.28+i*.1:.2f}"')
-        # The fold and its open terminals create a signature separate from UI cards.
-        self.path('M64 290L124 230L210 148L272 76', 'copper', 'stroke-width="1.5"')
-        self.path('M48 258L80 166Q177 88 278 48', 'accent',
-                  'class="signal" pathLength="100" stroke-width="2" '
-                  'stroke-dasharray="3 97" opacity=".85"')
-        self.path('M108 278Q179 223 271 232', 'copper',
-                  'class="signal signal-return" pathLength="100" '
-                  'stroke-width="2" stroke-dasharray="3 97" opacity=".8"')
-        for cx, cy in ((64, 290), (272, 76)):
-            self.parts.append(f'<circle cx="{cx}" cy="{cy}" r="3.5" '
-                              f'fill="{self.color("bg")}" stroke="{self.color("copper")}"/>')
+        self.path('M36 66H48M42 60V72M284 274H296M290 268V280',
+                  'copper', 'opacity=".35"')
+        # Internal traces follow each surface with ordered control points.
+        upper = 'M84 236C74 144 164 50 270 34C269 143 187 231 84 236Z'
+        lower = 'M94 248C153 209 236 198 278 216C230 282 153 303 108 280Z'
+        for d, gradient, color in ((upper, 'wing-upper', 'accent'),
+                                    (lower, 'wing-lower', 'copper')):
+            self.parts.append(f'<path d="{d}" fill="url(#{gradient})" '
+                              f'stroke="{self.color(color)}" stroke-width="1.3" '
+                              'stroke-opacity=".72"/>')
+        signals = []
+        for i in range(6):
+            t = (i+1)/7
+            d = curve(((84, 236), mix((74, 144), (187, 231), t),
+                       mix((164, 50), (269, 143), t), (270, 34)), lead=True)
+            self.path(d, 'accent', f'opacity="{.30+i*.06:.2f}"')
+            if i == 2:
+                signals.append((d, 'accent', 'signal'))
+        for i in range(4):
+            t = (i+1)/5
+            d = curve(((106, 258), mix((153, 219), (141, 322), t),
+                       mix((229, 209), (238, 294), t), (262, 225)))
+            self.path(d, 'copper', f'opacity="{.30+i*.08:.2f}"')
+            if i == 1:
+                signals.append((d, 'copper', 'signal signal-return'))
+        # Animation reuses the visible routes, so geometry cannot drift apart.
+        for d, color, css_class in signals:
+            self.path(d, color, f'class="{css_class}" pathLength="100" '
+                      'stroke-width="1.8" stroke-dasharray="2 98" opacity=".75"')
         self.parts.append('</g>')
 
     def finish(self, title, height, surface=False, hero=False):
@@ -266,7 +285,7 @@ def render(kind, theme, mobile=False, locale='pt-br'):
         if mobile:
             a.parts.append('<ellipse cx="310" cy="430" rx="190" ry="145" '
                            'fill="url(#hero-halo)"/>')
-            a.signature(150, 287, .8)
+            a.signature(150, 295, .8)
         else:
             a.parts.append('<ellipse cx="704" cy="180" rx="190" ry="174" '
                            'fill="url(#hero-halo)"/>')
