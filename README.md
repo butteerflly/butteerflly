@@ -1,15 +1,16 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg">
-  <img alt="ButterFlly profile header" src="./assets/profile-header-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-v3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-v3-light.svg">
+  <img alt="ButterFlly profile header" src="./assets/profile-header-v3-dark.svg" width="100%">
 </picture>
 
 <br>
 
 <div align="center">
   <code>software systems</code>
-  <code>linux</code>
   <code>embedded</code>
+  <code>iot</code>
+  <code>linux</code>
   <code>realtime</code>
   <code>automation</code>
 </div>
@@ -17,72 +18,64 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/operator-console-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/operator-console-light.svg">
-  <img alt="Current engineering console" src="./assets/operator-console-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/operator-console-v3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/operator-console-v3-light.svg">
+  <img alt="Engineering console" src="./assets/operator-console-v3-dark.svg" width="100%">
 </picture>
 
 ## About
 
-I like building things where several layers have to cooperate for the result to actually work.
+I like working on systems that have to make sense across more than one layer.
 
-Most of my projects move between **web interfaces, backend services, Linux infrastructure, networks and embedded devices**. I care a lot about knowing what a system is doing, why it failed and how to recover it without guesswork.
+Most of what I do sits somewhere between **interfaces, backend services, Linux environments, device communication and embedded hardware**. I care about visibility, state, recovery and the small details that make a system easier to trust.
 
-If there is a browser on one side and a sensor, machine or service on the other, I will probably find it interesting.
+I keep active project specifics private. This profile is about the kind of work I do, not a public log of everything I am building.
 
 `📍 Somewhere in New Mexico`
 
 <br>
 
-## Currently building
+## Fields I work in
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/home-iot-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/home-iot-light.svg">
-  <img alt="Home IoT control plane" src="./assets/home-iot-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/fields-v3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/fields-v3-light.svg">
+  <img alt="Fields of work" src="./assets/fields-v3-dark.svg" width="100%">
 </picture>
 
-### Home IoT / Leonida Home IoT Core
-
-Home IoT started as automation and kept growing.
-
-Today it is a private control plane for my home, workshop and development infrastructure. It ties together remote nodes, device control, environmental sensing, presence detection, telemetry, monitoring, OTA updates and recovery paths.
-
-The goal is pretty simple. I want to know what is happening, control things remotely and still have a way back when one piece decides to die.
-
-<sub>Private repository · active development</sub>
+I usually end up in work where software has to talk to something real, whether that means a service, a machine, a node on a network or a device sitting on a bench.
 
 <br>
 
 ## Toolbox
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
-  <img alt="Engineering stack" src="./assets/stack-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-v3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/toolbox-v3-light.svg">
+  <img alt="Engineering toolbox" src="./assets/toolbox-v3-dark.svg" width="100%">
 </picture>
 
-I also have older code and experiments in **PHP, Lua and Python**. The stack changes with the problem. I am much more interested in making the layers fit together than collecting logos.
+I have also worked with **PHP, Lua, Python, SQL and MySQL** when they fit the job. The stack changes with the problem.
 
 <br>
 
 ## How I like to build
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/system-map-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/system-map-light.svg">
-  <img alt="Systems engineering map" src="./assets/system-map-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/build-map-v3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/build-map-v3-light.svg">
+  <img alt="Systems map" src="./assets/build-map-v3-dark.svg" width="100%">
 </picture>
 
-I like **explicit state, useful telemetry, clear boundaries and recovery paths that are boring on purpose**.
+I like clear responsibilities, useful telemetry, simple control paths and recovery that has been thought through before something goes wrong.
 
-Hidden magic is fun right up until it breaks at 3 AM.
+If a system cannot explain its own state, I usually keep pushing until it can.
 
 <br>
 
-## Things I keep going down rabbit holes about
+## Things I keep digging into
 
-`Distributed systems` · `Embedded systems` · `IoT` · `Observability` · `Automotive technology` · `Electronics` · `Networking` · `Realtime systems` · `Automation` · `Human machine interfaces`
+`Distributed systems` · `Embedded systems` · `IoT` · `Observability` · `Electronics` · `Networking` · `Realtime software` · `Automation` · `Automotive technology` · `Human machine interfaces`
 
 <br>
 
